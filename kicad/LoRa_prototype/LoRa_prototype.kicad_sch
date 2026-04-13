@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LoRa hardware prototype")
-		(date "2026-04-08")
+		(date "2026-04-13")
 		(rev "A")
 		(company "DesCap GmbH")
 	)
