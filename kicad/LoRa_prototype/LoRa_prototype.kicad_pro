@@ -415,6 +415,10 @@
     [
       "aff57de4-7349-43c5-ba7a-251ada06728f",
       "MCU"
+    ],
+    [
+      "90bf3950-abae-4ac1-9a2d-ebd17dec7caa",
+      "Programming interface"
     ]
   ],
   "text_variables": {}

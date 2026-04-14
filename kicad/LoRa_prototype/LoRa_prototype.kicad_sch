@@ -11,345 +11,6 @@
 		(company "DesCap GmbH")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_ST_STDC14"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -8.89 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Conn_ST_STDC14"
-				(at 17.78 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf"
-				(at -8.89 -31.75 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ST STM32 Cortex Debug Connector ARM SWD JTAG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader?2x07?P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_ST_STDC14_0_1"
-				(rectangle
-					(start -10.16 15.24)
-					(end 10.16 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Conn_ST_STDC14_1_1"
-				(pin no_connect line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -17.78 90)
-					(length 2.54)
-					(name "GNDDetect"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 17.78 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "~{RST}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "JCLK/SWCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "JTMS/SWDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "JTDO/SWO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "JTDI/NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "JRCLK/NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "VCP_RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "VCP_TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1165,6 +826,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 96.52) (xy 96.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1415763f-7cef-48ef-84de-f35821f08e4f")
+	)
+	(wire
+		(pts
 			(xy 160.02 95.25) (xy 161.29 95.25)
 		)
 		(stroke
@@ -1205,6 +876,36 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 93.98) (xy 96.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499a7d3a-7cf2-4eef-9f45-e54c86bd87d7")
+	)
+	(wire
+		(pts
+			(xy 74.93 81.28) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed01c8c-2ff9-4fc7-a60f-2c53a079d908")
+	)
+	(wire
+		(pts
+			(xy 74.93 90.17) (xy 96.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b04b46a-fbda-41ef-b6e7-688d5dd8f1e2")
+	)
+	(wire
+		(pts
 			(xy 172.72 82.55) (xy 172.72 80.01)
 		)
 		(stroke
@@ -1212,6 +913,16 @@
 			(type default)
 		)
 		(uuid "84179844-77e5-4c5b-8cb5-4fd40332f1cd")
+	)
+	(wire
+		(pts
+			(xy 74.93 85.09) (xy 96.52 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b4e23c2-039a-4454-9c3c-9fcb3be1a7bb")
 	)
 	(wire
 		(pts
@@ -1242,6 +953,16 @@
 			(type default)
 		)
 		(uuid "a4c75442-5712-4636-8eac-d183ed93431f")
+	)
+	(wire
+		(pts
+			(xy 74.93 87.63) (xy 96.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41c6aff-224d-41a7-ae16-8fe8a297e214")
 	)
 	(wire
 		(pts
@@ -1893,112 +1614,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_ST_STDC14")
-		(at 53.34 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "932487aa-5822-4a33-a1b2-51586fc79e74")
-		(property "Reference" "J1"
-			(at 41.91 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_ST_STDC14"
-			(at 41.91 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical"
-			(at 53.34 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf"
-			(at 44.45 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
-			(at 53.34 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6e33854-c4c8-47d3-9dc0-c5b39e5284eb")
-		)
-		(pin "12"
-			(uuid "a8fe0dcf-5709-4fb2-859f-a6dd16cec633")
-		)
-		(pin "5"
-			(uuid "e962da6d-8f52-4dc7-951a-2eb4b21159e4")
-		)
-		(pin "6"
-			(uuid "ec7e8f46-cd26-4459-82fe-c9a850ffcef8")
-		)
-		(pin "11"
-			(uuid "a10f3c49-246c-4d10-a003-a6c6a8e785be")
-		)
-		(pin "13"
-			(uuid "dc99e46c-7526-4acc-9a85-b1ee42abedd8")
-		)
-		(pin "10"
-			(uuid "52efab0d-e524-4820-8b34-37e7fec8be9d")
-		)
-		(pin "4"
-			(uuid "12a4d2b4-728f-47c7-af8e-aa319ba10b4a")
-		)
-		(pin "9"
-			(uuid "9af46f6b-c281-48bb-b695-1254915fd2f8")
-		)
-		(pin "8"
-			(uuid "bf93ea6e-40c2-4e64-9b92-460f3525e2eb")
-		)
-		(pin "14"
-			(uuid "2a6537f9-1e15-45d9-bb85-f3ecfafd15c2")
-		)
-		(pin "2"
-			(uuid "1621fad7-08b0-49a5-8433-af5560b49a44")
-		)
-		(pin "7"
-			(uuid "884fb41b-f547-48ea-a279-70a074752494")
-		)
-		(pin "3"
-			(uuid "147140c7-dd45-4a1b-b270-2b6e0c4dcb1f")
-		)
-		(instances
-			(project ""
-				(path "/9fad4700-f514-47ad-821a-b4076ecc08de"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 156.21 100.33 90)
 		(unit 1)
@@ -2200,6 +1815,109 @@
 		)
 	)
 	(sheet
+		(at 60.96 76.2)
+		(size 13.97 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90bf3950-abae-4ac1-9a2d-ebd17dec7caa")
+		(property "Sheetname" "Programming interface"
+			(at 60.96 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "programming_interface.kicad_sch"
+			(at 60.96 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VCP_RX" input
+			(at 74.93 93.98 0)
+			(uuid "1f4ca42c-d56a-4523-90f3-e9e81668fd72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWO" input
+			(at 74.93 90.17 0)
+			(uuid "89bb4920-4fcb-4576-96b5-8f2e5ff4566a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCP_TX" output
+			(at 74.93 96.52 0)
+			(uuid "b0176ced-80b2-4ae5-b41c-f3ffa4cd2593")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" output
+			(at 74.93 87.63 0)
+			(uuid "9ed38601-a7e0-4d2d-bfd6-baaa9c843ce9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" output
+			(at 74.93 85.09 0)
+			(uuid "ecdc81e4-72ce-4a51-8801-9ac762ce2a9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" passive
+			(at 74.93 81.28 0)
+			(uuid "c1cb6466-0a19-4bc8-93b7-73c1012dc472")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "LoRa_prototype"
+				(path "/9fad4700-f514-47ad-821a-b4076ecc08de"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 96.52 76.2)
 		(size 41.91 52.07)
 		(exclude_from_sim no)
@@ -2231,6 +1949,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "LORA_RX" input
@@ -2251,6 +1970,66 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "NRST" passive
+			(at 96.52 81.28 180)
+			(uuid "d7918632-52ea-4e94-83e7-a95b559a8997")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 96.52 87.63 180)
+			(uuid "9b35e76b-7563-42c9-b279-e55bb9330bc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 96.52 85.09 180)
+			(uuid "a1e04a35-3109-44c9-bf27-49563967b0be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWO" output
+			(at 96.52 90.17 180)
+			(uuid "a8b8e1be-949a-4f05-bd6c-59d9f1c45a5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCP_TX" output
+			(at 96.52 93.98 180)
+			(uuid "8423b3e5-4103-40c4-9622-a58dd2175e07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCP_RX" input
+			(at 96.52 96.52 180)
+			(uuid "61638a6e-94f3-4524-a4c6-ca2217c17e75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
