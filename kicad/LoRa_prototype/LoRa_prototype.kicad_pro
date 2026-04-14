@@ -419,6 +419,10 @@
     [
       "90bf3950-abae-4ac1-9a2d-ebd17dec7caa",
       "Programming interface"
+    ],
+    [
+      "5f290f36-0c09-4232-84b9-bfe06ad06aa2",
+      "Power management"
     ]
   ],
   "text_variables": {}
