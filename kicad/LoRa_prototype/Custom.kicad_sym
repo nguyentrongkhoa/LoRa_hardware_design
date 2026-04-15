@@ -49,20 +49,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "SPV1050_0_1"
+		(symbol "SPV1050_1_1"
 			(rectangle
-				(start -13.97 -19.05)
-				(end 11.43 15.24)
+				(start -13.97 15.24)
+				(end 11.43 -19.05)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "SPV1050_1_1"
 			(pin input line
 				(at -16.51 5.08 0)
 				(length 2.54)
@@ -491,20 +489,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "TCXO_NT2016SF_0_1"
+		(symbol "TCXO_NT2016SF_1_1"
 			(rectangle
-				(start 5.08 3.81)
-				(end -5.08 -3.81)
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TCXO_NT2016SF_1_1"
 			(pin power_in line
 				(at -7.62 2.54 0)
 				(length 2.54)

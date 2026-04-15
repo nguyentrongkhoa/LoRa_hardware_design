@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 8.89 0)
+			(at -1.524 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,20 +49,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "SPV1050_0_1"
+		(symbol "SPV1050_1_1"
 			(rectangle
-				(start -13.97 -19.05)
-				(end 11.43 15.24)
+				(start -13.97 15.24)
+				(end 11.43 -19.05)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "SPV1050_1_1"
 			(pin input line
 				(at -16.51 5.08 0)
 				(length 2.54)

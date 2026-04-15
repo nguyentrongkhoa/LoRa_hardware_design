@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "91ba5a86-6441-4173-a722-f0b90871d0f6")
+	(uuid "7fbce6c4-c0df-43b3-b932-7209aa5bd85b")
 	(paper "A4")
 	(title_block
 		(title "STM32WL55")
@@ -58,20 +58,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "TCXO_NT2016SF_0_1"
+			(symbol "TCXO_NT2016SF_1_1"
 				(rectangle
-					(start 5.08 3.81)
-					(end -5.08 -3.81)
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "TCXO_NT2016SF_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -10075,6 +10073,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom:TCXO_NT2016SF")
+		(at 33.02 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fa8d7e8-c419-4d84-88ac-592225dd1e38")
+		(property "Reference" "X2"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "acf6c20b-4966-470b-ba5e-6d2bdefd93c5")
+		)
+		(pin "3"
+			(uuid "8ccd71f9-37f5-4546-8cb9-273f98027b66")
+		)
+		(pin "1"
+			(uuid "2a0e3af7-ebcb-46e2-9f0e-8033eac6e714")
+		)
+		(pin "4"
+			(uuid "3bd0929c-cebe-4e83-810c-9f9ec215e5bc")
+		)
+		(instances
+			(project ""
+				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/aff57de4-7349-43c5-ba7a-251ada06728f"
+					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 80.01 22.86 0)
 		(unit 1)
@@ -12363,79 +12435,6 @@
 			(project ""
 				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/aff57de4-7349-43c5-ba7a-251ada06728f"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom:TCXO_NT2016SF")
-		(at 33.02 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a97f2eb6-3211-428c-b296-8658a482f416")
-		(property "Reference" "X2"
-			(at 33.02 148.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TCXO"
-			(at 33.02 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a803a33a-22e5-4747-b647-ba102a377d67")
-		)
-		(pin "3"
-			(uuid "1c756e56-95d1-4536-935b-ff9be0870802")
-		)
-		(pin "2"
-			(uuid "a5a3e5eb-761a-40b2-8362-a400ad67bacf")
-		)
-		(pin "4"
-			(uuid "902c9ce5-5a39-4b81-a8d1-510707a82b7f")
-		)
-		(instances
-			(project ""
-				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/aff57de4-7349-43c5-ba7a-251ada06728f"
-					(reference "X2")
 					(unit 1)
 				)
 			)
