@@ -1827,7 +1827,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 212 212 212 1.0000)
 		)
 		(uuid "5f290f36-0c09-4232-84b9-bfe06ad06aa2")
 		(property "Sheetname" "Power management"
@@ -1869,7 +1869,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 212 212 212 1.0000)
 		)
 		(uuid "90bf3950-abae-4ac1-9a2d-ebd17dec7caa")
 		(property "Sheetname" "Programming interface"
@@ -1972,7 +1972,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 212 212 212 1.0000)
 		)
 		(uuid "aff57de4-7349-43c5-ba7a-251ada06728f")
 		(property "Sheetname" "MCU"
