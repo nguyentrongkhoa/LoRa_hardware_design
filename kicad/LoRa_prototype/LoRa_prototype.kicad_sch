@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(text "(FG: fuel gauge)"
 		(exclude_from_sim no)
-		(at 86.106 109.474 0)
+		(at 112.776 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24,7 +24,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 119.38) (xy 96.52 119.38)
+			(xy 101.6 113.03) (xy 123.19 113.03)
 		)
 		(stroke
 			(width 0)
@@ -34,7 +34,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 96.52) (xy 96.52 96.52)
+			(xy 101.6 90.17) (xy 123.19 90.17)
 		)
 		(stroke
 			(width 0)
@@ -44,7 +44,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 121.92) (xy 96.52 121.92)
+			(xy 101.6 115.57) (xy 123.19 115.57)
 		)
 		(stroke
 			(width 0)
@@ -54,7 +54,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 107.95) (xy 96.52 107.95)
+			(xy 101.6 101.6) (xy 123.19 101.6)
 		)
 		(stroke
 			(width 0)
@@ -64,7 +64,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 116.84) (xy 152.4 116.84)
+			(xy 165.1 110.49) (xy 179.07 110.49)
 		)
 		(stroke
 			(width 0)
@@ -74,7 +74,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 93.98) (xy 96.52 93.98)
+			(xy 101.6 87.63) (xy 123.19 87.63)
 		)
 		(stroke
 			(width 0)
@@ -84,7 +84,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 81.28) (xy 96.52 81.28)
+			(xy 101.6 74.93) (xy 123.19 74.93)
 		)
 		(stroke
 			(width 0)
@@ -94,7 +94,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 119.38) (xy 152.4 119.38)
+			(xy 165.1 113.03) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -104,7 +104,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 96.52 90.17)
+			(xy 101.6 83.82) (xy 123.19 83.82)
 		)
 		(stroke
 			(width 0)
@@ -114,7 +114,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 85.09) (xy 96.52 85.09)
+			(xy 101.6 78.74) (xy 123.19 78.74)
 		)
 		(stroke
 			(width 0)
@@ -124,7 +124,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 110.49) (xy 96.52 110.49)
+			(xy 101.6 104.14) (xy 123.19 104.14)
 		)
 		(stroke
 			(width 0)
@@ -134,7 +134,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 97.79) (xy 152.4 97.79)
+			(xy 165.1 91.44) (xy 179.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -144,7 +144,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 95.25) (xy 152.4 95.25)
+			(xy 165.1 88.9) (xy 179.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -154,7 +154,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 83.82) (xy 152.4 83.82)
+			(xy 165.1 77.47) (xy 179.07 77.47)
 		)
 		(stroke
 			(width 0)
@@ -164,7 +164,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 81.28) (xy 152.4 81.28)
+			(xy 165.1 74.93) (xy 179.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -174,7 +174,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 87.63) (xy 96.52 87.63)
+			(xy 101.6 81.28) (xy 123.19 81.28)
 		)
 		(stroke
 			(width 0)
@@ -184,7 +184,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 124.46) (xy 96.52 124.46)
+			(xy 101.6 118.11) (xy 123.19 118.11)
 		)
 		(stroke
 			(width 0)
@@ -194,7 +194,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 124.46) (xy 152.4 124.46)
+			(xy 165.1 118.11) (xy 179.07 118.11)
 		)
 		(stroke
 			(width 0)
@@ -203,7 +203,7 @@
 		(uuid "fcde3d6a-b0e0-47c5-8aef-2c9847ca45b4")
 	)
 	(sheet
-		(at 152.4 114.3)
+		(at 179.07 107.95)
 		(size 17.78 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -219,7 +219,7 @@
 		)
 		(uuid "0b8e018d-1945-475c-8020-0cbd093bbf1b")
 		(property "Sheetname" "GPS"
-			(at 152.4 113.5884 0)
+			(at 179.07 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,7 +228,7 @@
 			)
 		)
 		(property "Sheetfile" "gps.kicad_sch"
-			(at 152.4 137.7446 0)
+			(at 179.07 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -238,7 +238,7 @@
 			)
 		)
 		(pin "GPS_RX" bidirectional
-			(at 152.4 116.84 180)
+			(at 179.07 110.49 180)
 			(uuid "e3f2f4e7-d1a0-4ea6-ae1a-ec7a3c721520")
 			(effects
 				(font
@@ -248,7 +248,7 @@
 			)
 		)
 		(pin "GPS_TX" bidirectional
-			(at 152.4 119.38 180)
+			(at 179.07 113.03 180)
 			(uuid "01fa6266-0947-427b-b18c-1283f20b0ab3")
 			(effects
 				(font
@@ -258,7 +258,7 @@
 			)
 		)
 		(pin "GPS_~{RESET}" input
-			(at 152.4 124.46 180)
+			(at 179.07 118.11 180)
 			(uuid "8d41afa7-4a48-4a1b-a719-e5859e40e5c1")
 			(effects
 				(font
@@ -276,7 +276,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 105.41)
+		(at 83.82 99.06)
 		(size 17.78 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -292,7 +292,7 @@
 		)
 		(uuid "5f290f36-0c09-4232-84b9-bfe06ad06aa2")
 		(property "Sheetname" "Power management"
-			(at 57.15 104.6984 0)
+			(at 83.82 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,7 +301,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 57.15 131.3946 0)
+			(at 83.82 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -311,7 +311,7 @@
 			)
 		)
 		(pin "SCL_FG" bidirectional
-			(at 74.93 110.49 0)
+			(at 101.6 104.14 0)
 			(uuid "f62ecc8a-73ff-4fc0-9765-ed0efe04eed9")
 			(effects
 				(font
@@ -321,7 +321,7 @@
 			)
 		)
 		(pin "~{BATT_CHG}" output
-			(at 74.93 121.92 0)
+			(at 101.6 115.57 0)
 			(uuid "9fdda99d-6937-4e31-9efd-04a3ce61817d")
 			(effects
 				(font
@@ -331,7 +331,7 @@
 			)
 		)
 		(pin "~{BATT_CONN}" output
-			(at 74.93 124.46 0)
+			(at 101.6 118.11 0)
 			(uuid "7e1a9223-c743-4188-b045-83779b2e87f9")
 			(effects
 				(font
@@ -341,7 +341,7 @@
 			)
 		)
 		(pin "SDA_FG" bidirectional
-			(at 74.93 107.95 0)
+			(at 101.6 101.6 0)
 			(uuid "503d7053-bfc5-4d34-975c-598c5691583e")
 			(effects
 				(font
@@ -351,7 +351,7 @@
 			)
 		)
 		(pin "~{ALRT}" output
-			(at 74.93 119.38 0)
+			(at 101.6 113.03 0)
 			(uuid "178a9773-6cb9-40e7-a3c9-0fc68b1a0d0b")
 			(effects
 				(font
@@ -369,7 +369,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 76.2)
+		(at 179.07 69.85)
 		(size 24.13 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -385,7 +385,7 @@
 		)
 		(uuid "724a66f0-96b6-4d19-9e27-2d301e795177")
 		(property "Sheetname" "RF Switch + Antenna"
-			(at 152.4 75.4884 0)
+			(at 179.07 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,7 +394,7 @@
 			)
 		)
 		(property "Sheetfile" "antenna.kicad_sch"
-			(at 152.4 111.0746 0)
+			(at 179.07 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -404,7 +404,7 @@
 			)
 		)
 		(pin "RF_SW_V1" input
-			(at 152.4 83.82 180)
+			(at 179.07 77.47 180)
 			(uuid "bb6f4ef6-9d8d-497b-8d1b-cc203d229674")
 			(effects
 				(font
@@ -414,7 +414,7 @@
 			)
 		)
 		(pin "RF_SW_V2" input
-			(at 152.4 81.28 180)
+			(at 179.07 74.93 180)
 			(uuid "8be7b760-6686-4de1-bb85-1abf9b1bd88f")
 			(effects
 				(font
@@ -424,7 +424,7 @@
 			)
 		)
 		(pin "LORA_TX" input
-			(at 152.4 95.25 180)
+			(at 179.07 88.9 180)
 			(uuid "c6ef56ea-dca8-4756-8752-677c685c38a7")
 			(effects
 				(font
@@ -434,7 +434,7 @@
 			)
 		)
 		(pin "LORA_RX" input
-			(at 152.4 97.79 180)
+			(at 179.07 91.44 180)
 			(uuid "2aab84a9-cb01-4ac9-ad28-2684eaadf6a0")
 			(effects
 				(font
@@ -452,7 +452,7 @@
 		)
 	)
 	(sheet
-		(at 60.96 76.2)
+		(at 87.63 69.85)
 		(size 13.97 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -467,7 +467,7 @@
 		)
 		(uuid "90bf3950-abae-4ac1-9a2d-ebd17dec7caa")
 		(property "Sheetname" "Programming interface"
-			(at 58.166 75.692 0)
+			(at 84.836 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,7 +476,7 @@
 			)
 		)
 		(property "Sheetfile" "programming_interface.kicad_sch"
-			(at 60.96 100.9146 0)
+			(at 87.63 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,7 +486,7 @@
 			)
 		)
 		(pin "VCP_RX" input
-			(at 74.93 93.98 0)
+			(at 101.6 87.63 0)
 			(uuid "1f4ca42c-d56a-4523-90f3-e9e81668fd72")
 			(effects
 				(font
@@ -496,7 +496,7 @@
 			)
 		)
 		(pin "SWO" input
-			(at 74.93 90.17 0)
+			(at 101.6 83.82 0)
 			(uuid "89bb4920-4fcb-4576-96b5-8f2e5ff4566a")
 			(effects
 				(font
@@ -506,7 +506,7 @@
 			)
 		)
 		(pin "VCP_TX" output
-			(at 74.93 96.52 0)
+			(at 101.6 90.17 0)
 			(uuid "b0176ced-80b2-4ae5-b41c-f3ffa4cd2593")
 			(effects
 				(font
@@ -516,7 +516,7 @@
 			)
 		)
 		(pin "SWDIO" output
-			(at 74.93 87.63 0)
+			(at 101.6 81.28 0)
 			(uuid "9ed38601-a7e0-4d2d-bfd6-baaa9c843ce9")
 			(effects
 				(font
@@ -526,7 +526,7 @@
 			)
 		)
 		(pin "SWCLK" output
-			(at 74.93 85.09 0)
+			(at 101.6 78.74 0)
 			(uuid "ecdc81e4-72ce-4a51-8801-9ac762ce2a9e")
 			(effects
 				(font
@@ -536,7 +536,7 @@
 			)
 		)
 		(pin "NRST" passive
-			(at 74.93 81.28 0)
+			(at 101.6 74.93 0)
 			(uuid "c1cb6466-0a19-4bc8-93b7-73c1012dc472")
 			(effects
 				(font
@@ -554,7 +554,7 @@
 		)
 	)
 	(sheet
-		(at 96.52 76.2)
+		(at 123.19 69.85)
 		(size 41.91 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -570,7 +570,7 @@
 		)
 		(uuid "aff57de4-7349-43c5-ba7a-251ada06728f")
 		(property "Sheetname" "MCU"
-			(at 96.52 75.4884 0)
+			(at 123.19 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -579,7 +579,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 96.52 128.8546 0)
+			(at 123.19 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -589,7 +589,7 @@
 			)
 		)
 		(pin "LORA_RX" input
-			(at 138.43 95.25 0)
+			(at 165.1 88.9 0)
 			(uuid "dc24c078-ff5f-42c7-b7b5-404420525648")
 			(effects
 				(font
@@ -599,7 +599,7 @@
 			)
 		)
 		(pin "LORA_TX" output
-			(at 138.43 97.79 0)
+			(at 165.1 91.44 0)
 			(uuid "69d545b5-4d84-4b11-972b-450ff9f46e0d")
 			(effects
 				(font
@@ -609,7 +609,7 @@
 			)
 		)
 		(pin "NRST" passive
-			(at 96.52 81.28 180)
+			(at 123.19 74.93 180)
 			(uuid "d7918632-52ea-4e94-83e7-a95b559a8997")
 			(effects
 				(font
@@ -619,7 +619,7 @@
 			)
 		)
 		(pin "SWDIO" input
-			(at 96.52 87.63 180)
+			(at 123.19 81.28 180)
 			(uuid "9b35e76b-7563-42c9-b279-e55bb9330bc0")
 			(effects
 				(font
@@ -629,7 +629,7 @@
 			)
 		)
 		(pin "SWCLK" input
-			(at 96.52 85.09 180)
+			(at 123.19 78.74 180)
 			(uuid "a1e04a35-3109-44c9-bf27-49563967b0be")
 			(effects
 				(font
@@ -639,7 +639,7 @@
 			)
 		)
 		(pin "SWO" output
-			(at 96.52 90.17 180)
+			(at 123.19 83.82 180)
 			(uuid "a8b8e1be-949a-4f05-bd6c-59d9f1c45a5c")
 			(effects
 				(font
@@ -649,7 +649,7 @@
 			)
 		)
 		(pin "VCP_TX" output
-			(at 96.52 93.98 180)
+			(at 123.19 87.63 180)
 			(uuid "8423b3e5-4103-40c4-9622-a58dd2175e07")
 			(effects
 				(font
@@ -659,7 +659,7 @@
 			)
 		)
 		(pin "VCP_RX" input
-			(at 96.52 96.52 180)
+			(at 123.19 90.17 180)
 			(uuid "61638a6e-94f3-4524-a4c6-ca2217c17e75")
 			(effects
 				(font
@@ -669,7 +669,7 @@
 			)
 		)
 		(pin "SCL_FG" bidirectional
-			(at 96.52 110.49 180)
+			(at 123.19 104.14 180)
 			(uuid "7068149e-0946-4a7a-be0c-7bab2d60417b")
 			(effects
 				(font
@@ -679,7 +679,7 @@
 			)
 		)
 		(pin "SDA_FG" bidirectional
-			(at 96.52 107.95 180)
+			(at 123.19 101.6 180)
 			(uuid "8d881412-18b7-4349-8ee2-c179c90cbb77")
 			(effects
 				(font
@@ -689,7 +689,7 @@
 			)
 		)
 		(pin "~{BATT_CONN}" input
-			(at 96.52 124.46 180)
+			(at 123.19 118.11 180)
 			(uuid "2a5072fe-0857-4c98-84bb-a2cb65cf39e4")
 			(effects
 				(font
@@ -699,7 +699,7 @@
 			)
 		)
 		(pin "~{ALRT}" input
-			(at 96.52 119.38 180)
+			(at 123.19 113.03 180)
 			(uuid "ef2639bb-0dc5-4f2b-904c-48ffcb1264c8")
 			(effects
 				(font
@@ -709,7 +709,7 @@
 			)
 		)
 		(pin "~{BATT_CHG}" input
-			(at 96.52 121.92 180)
+			(at 123.19 115.57 180)
 			(uuid "796e5fa2-a38c-48a1-968e-9fa9d53c4535")
 			(effects
 				(font
@@ -719,7 +719,7 @@
 			)
 		)
 		(pin "RF_SW_V2" output
-			(at 138.43 81.28 0)
+			(at 165.1 74.93 0)
 			(uuid "25d96ef0-3d80-47d6-b0bf-1da0b7cea796")
 			(effects
 				(font
@@ -729,7 +729,7 @@
 			)
 		)
 		(pin "RF_SW_V1" output
-			(at 138.43 83.82 0)
+			(at 165.1 77.47 0)
 			(uuid "6e2bb08a-617a-4b6c-8e77-76194608bebf")
 			(effects
 				(font
@@ -739,7 +739,7 @@
 			)
 		)
 		(pin "TX1" bidirectional
-			(at 138.43 116.84 0)
+			(at 165.1 110.49 0)
 			(uuid "2eabf56b-7dfa-4765-923b-6b7d989b0d8c")
 			(effects
 				(font
@@ -749,7 +749,7 @@
 			)
 		)
 		(pin "RX1" bidirectional
-			(at 138.43 119.38 0)
+			(at 165.1 113.03 0)
 			(uuid "b8b9be07-50d5-4bf7-baad-85744050a5c8")
 			(effects
 				(font
@@ -759,7 +759,7 @@
 			)
 		)
 		(pin "GPS_~{RESET}" output
-			(at 138.43 124.46 0)
+			(at 165.1 118.11 0)
 			(uuid "354ceabc-fbf3-4956-b0fe-1a531cf687f5")
 			(effects
 				(font

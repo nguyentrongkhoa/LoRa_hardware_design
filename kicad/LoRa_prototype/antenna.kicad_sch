@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "6f6e7caa-c528-4481-a5af-27a2f4aa7550")
+	(uuid "2f938a6c-3e30-44df-ae0b-c33904342313")
 	(paper "A4")
 	(title_block
 		(date "2026-04-13")
@@ -1285,7 +1285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24f4a0e4-642e-4348-8b3e-08af298acdba")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR055"
 			(at 148.59 104.14 0)
 			(effects
 				(font
@@ -1335,7 +1335,7 @@
 		(instances
 			(project "LoRa_prototype"
 				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/724a66f0-96b6-4d19-9e27-2d301e795177"
-					(reference "#PWR019")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -1350,7 +1350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2890366f-401b-4d8e-aec8-d48131286351")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR054"
 			(at 124.46 81.28 0)
 			(effects
 				(font
@@ -1400,7 +1400,7 @@
 		(instances
 			(project "LoRa_prototype"
 				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/724a66f0-96b6-4d19-9e27-2d301e795177"
-					(reference "#PWR018")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -1415,7 +1415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87eba274-bd9a-485e-b029-3585d9402279")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 122.936 95.25 0)
 			(effects
 				(font
@@ -1479,7 +1479,7 @@
 		(instances
 			(project "LoRa_prototype"
 				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/724a66f0-96b6-4d19-9e27-2d301e795177"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1495,7 +1495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fcfcd61-690c-4b0e-990f-da15a2abcc6a")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 151.13 89.1931 0)
 			(effects
 				(font
@@ -1558,7 +1558,7 @@
 		(instances
 			(project "LoRa_prototype"
 				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/724a66f0-96b6-4d19-9e27-2d301e795177"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1573,7 +1573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "989583d4-71ba-4e6b-ae9e-c850d68df0b6")
-		(property "Reference" "C23"
+		(property "Reference" "C36"
 			(at 107.95 96.52 90)
 			(effects
 				(font
@@ -1625,7 +1625,7 @@
 		(instances
 			(project "LoRa_prototype"
 				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/724a66f0-96b6-4d19-9e27-2d301e795177"
-					(reference "C23")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -1640,7 +1640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6cd4d47-24c8-4ce3-9419-115df96e6873")
-		(property "Reference" "C27"
+		(property "Reference" "C37"
 			(at 137.16 93.98 90)
 			(effects
 				(font
@@ -1692,7 +1692,7 @@
 		(instances
 			(project "LoRa_prototype"
 				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/724a66f0-96b6-4d19-9e27-2d301e795177"
-					(reference "C27")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -1707,7 +1707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e01ad334-5b53-4899-9680-eed664c37d1f")
-		(property "Reference" "C22"
+		(property "Reference" "C35"
 			(at 107.95 82.042 90)
 			(effects
 				(font
@@ -1759,7 +1759,7 @@
 		(instances
 			(project "LoRa_prototype"
 				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/724a66f0-96b6-4d19-9e27-2d301e795177"
-					(reference "C22")
+					(reference "C35")
 					(unit 1)
 				)
 			)
