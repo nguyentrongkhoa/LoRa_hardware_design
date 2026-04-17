@@ -64,6 +64,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 116.84) (xy 152.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b49e553-e977-4ca2-a0ff-8db2686bf40c")
+	)
+	(wire
+		(pts
 			(xy 74.93 93.98) (xy 96.52 93.98)
 		)
 		(stroke
@@ -81,6 +91,16 @@
 			(type default)
 		)
 		(uuid "4ed01c8c-2ff9-4fc7-a60f-2c53a079d908")
+	)
+	(wire
+		(pts
+			(xy 138.43 119.38) (xy 152.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef78dc8-532d-4393-b203-bb586b0ae997")
 	)
 	(wire
 		(pts
@@ -172,8 +192,18 @@
 		)
 		(uuid "deff3c27-6e09-4a1a-b331-6ba52014306e")
 	)
+	(wire
+		(pts
+			(xy 138.43 124.46) (xy 152.4 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcde3d6a-b0e0-47c5-8aef-2c9847ca45b4")
+	)
 	(sheet
-		(at 195.58 109.22)
+		(at 152.4 114.3)
 		(size 17.78 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -189,7 +219,7 @@
 		)
 		(uuid "0b8e018d-1945-475c-8020-0cbd093bbf1b")
 		(property "Sheetname" "GPS"
-			(at 195.58 108.5084 0)
+			(at 152.4 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,12 +228,43 @@
 			)
 		)
 		(property "Sheetfile" "gps.kicad_sch"
-			(at 195.58 132.6646 0)
+			(at 152.4 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GPS_RX" bidirectional
+			(at 152.4 116.84 180)
+			(uuid "e3f2f4e7-d1a0-4ea6-ae1a-ec7a3c721520")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_TX" bidirectional
+			(at 152.4 119.38 180)
+			(uuid "01fa6266-0947-427b-b18c-1283f20b0ab3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_~{RESET}" input
+			(at 152.4 124.46 180)
+			(uuid "8d41afa7-4a48-4a1b-a719-e5859e40e5c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -670,6 +731,36 @@
 		(pin "RF_SW_V1" output
 			(at 138.43 83.82 0)
 			(uuid "6e2bb08a-617a-4b6c-8e77-76194608bebf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX1" bidirectional
+			(at 138.43 116.84 0)
+			(uuid "2eabf56b-7dfa-4765-923b-6b7d989b0d8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX1" bidirectional
+			(at 138.43 119.38 0)
+			(uuid "b8b9be07-50d5-4bf7-baad-85744050a5c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_~{RESET}" output
+			(at 138.43 124.46 0)
+			(uuid "354ceabc-fbf3-4956-b0fe-1a531cf687f5")
 			(effects
 				(font
 					(size 1.27 1.27)
