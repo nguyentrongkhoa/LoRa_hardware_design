@@ -173,6 +173,48 @@
 		(uuid "deff3c27-6e09-4a1a-b331-6ba52014306e")
 	)
 	(sheet
+		(at 195.58 109.22)
+		(size 17.78 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 212 212 212 1.0000)
+		)
+		(uuid "0b8e018d-1945-475c-8020-0cbd093bbf1b")
+		(property "Sheetname" "GPS"
+			(at 195.58 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gps.kicad_sch"
+			(at 195.58 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoRa_prototype"
+				(path "/9fad4700-f514-47ad-821a-b4076ecc08de"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 57.15 105.41)
 		(size 17.78 25.4)
 		(exclude_from_sim no)

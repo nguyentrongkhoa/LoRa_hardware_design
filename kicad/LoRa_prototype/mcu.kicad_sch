@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "498073d9-fe1d-4bf2-af0d-cf9f6c1fe106")
+	(uuid "9747fbf7-23c2-4a46-9160-c2a370a3a177")
 	(paper "A4")
 	(title_block
 		(title "STM32WL55")
@@ -3866,6 +3866,10 @@
 	(no_connect
 		(at 130.81 77.47)
 		(uuid "5c4d83c3-9016-475d-896b-65dd929df089")
+	)
+	(no_connect
+		(at 130.81 92.71)
+		(uuid "66761f98-d8d9-4c15-9962-6f407dd10523")
 	)
 	(no_connect
 		(at 80.01 128.27)

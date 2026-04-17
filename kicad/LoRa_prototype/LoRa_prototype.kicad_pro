@@ -427,6 +427,10 @@
     [
       "724a66f0-96b6-4d19-9e27-2d301e795177",
       "RF Switch + Antenna"
+    ],
+    [
+      "0b8e018d-1945-475c-8020-0cbd093bbf1b",
+      "GPS"
     ]
   ],
   "text_variables": {}
