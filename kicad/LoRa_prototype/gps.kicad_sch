@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c74942c8-a531-4240-97e2-19f05a881d6c")
+	(uuid "d6c75ece-4056-459c-b37a-ec8a14dadb9c")
 	(paper "A4")
 	(title_block
 		(title "GPS and gas sensor modules")
