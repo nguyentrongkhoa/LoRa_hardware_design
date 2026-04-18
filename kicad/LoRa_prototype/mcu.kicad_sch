@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "246d8eb9-bb6b-4a52-916b-4307b31701b3")
+	(uuid "649a7d1b-0d3a-473d-a851-1fcd4e469104")
 	(paper "A4")
 	(title_block
 		(title "STM32WL55")
