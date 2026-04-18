@@ -204,7 +204,7 @@
 	)
 	(sheet
 		(at 179.07 107.95)
-		(size 17.78 22.86)
+		(size 24.13 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -228,7 +228,7 @@
 			)
 		)
 		(property "Sheetfile" "gps.kicad_sch"
-			(at 179.07 131.3946 0)
+			(at 179.07 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -260,6 +260,46 @@
 		(pin "GPS_RESET" input
 			(at 179.07 118.11 180)
 			(uuid "6e2f2bdf-b7aa-4d93-b5be-a913b8d27d3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK_BMV" input
+			(at 179.07 121.92 180)
+			(uuid "eda8fb9c-165a-44f7-868f-2030b6bce58d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_BMV" bidirectional
+			(at 179.07 124.46 180)
+			(uuid "2d8f2de3-80fb-49f7-a8ad-64bdc4888848")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_BME" input
+			(at 179.07 127 180)
+			(uuid "d6c6bf0e-0020-4203-a4c2-fc1bc7464382")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_BME" bidirectional
+			(at 179.07 129.54 180)
+			(uuid "af8c5cf0-2e5e-4a61-86d1-6da9a9c4bd54")
 			(effects
 				(font
 					(size 1.27 1.27)
