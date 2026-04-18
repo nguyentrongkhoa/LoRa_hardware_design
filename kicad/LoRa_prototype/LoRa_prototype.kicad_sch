@@ -13,14 +13,26 @@
 	(lib_symbols)
 	(text "(FG: fuel gauge)"
 		(exclude_from_sim no)
-		(at 112.776 103.124 0)
+		(at 94.742 106.426 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.1588)
 			)
 		)
 		(uuid "2c9774a4-1a74-4542-bb76-85db28a931f1")
+	)
+	(junction
+		(at 176.53 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d467da1-e703-4e9b-a6a1-ebe9dc1d2bd7")
+	)
+	(junction
+		(at 173.99 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e4c917b-184a-44c7-a4bd-ccc9b9d3ecdd")
 	)
 	(wire
 		(pts
@@ -64,6 +76,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 130.81) (xy 176.53 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cccad5c-83c2-442b-8fa8-82448fb69805")
+	)
+	(wire
+		(pts
+			(xy 173.99 128.27) (xy 179.07 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358c5c97-56d5-4a9c-b11b-f1ce57146231")
+	)
+	(wire
+		(pts
 			(xy 165.1 110.49) (xy 179.07 110.49)
 		)
 		(stroke
@@ -104,6 +136,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 125.73) (xy 176.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5799a76f-ae4c-4ee9-bd48-2b7161cb02e7")
+	)
+	(wire
+		(pts
 			(xy 101.6 83.82) (xy 123.19 83.82)
 		)
 		(stroke
@@ -111,6 +153,26 @@
 			(type default)
 		)
 		(uuid "5b04b46a-fbda-41ef-b6e7-688d5dd8f1e2")
+	)
+	(wire
+		(pts
+			(xy 173.99 133.35) (xy 173.99 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73842940-6615-4b4f-81c6-978affe36761")
+	)
+	(wire
+		(pts
+			(xy 162.56 128.27) (xy 173.99 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8250aef9-3b3a-4d8a-9119-a1e1165616ee")
 	)
 	(wire
 		(pts
@@ -144,6 +206,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 133.35) (xy 173.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d469487-1896-4621-9e49-2b203561a470")
+	)
+	(wire
+		(pts
 			(xy 165.1 88.9) (xy 179.07 88.9)
 		)
 		(stroke
@@ -161,6 +233,16 @@
 			(type default)
 		)
 		(uuid "ad2107d2-d735-400b-a130-cf7df83ab362")
+	)
+	(wire
+		(pts
+			(xy 176.53 125.73) (xy 179.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ba1651-0c7b-4901-a0c2-a42756afcbe2")
 	)
 	(wire
 		(pts
@@ -202,9 +284,67 @@
 		)
 		(uuid "fcde3d6a-b0e0-47c5-8aef-2c9847ca45b4")
 	)
+	(wire
+		(pts
+			(xy 176.53 130.81) (xy 176.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee9ca60-ba2a-4523-836c-8e11b6d9fb78")
+	)
+	(label "MCU_SCL1"
+		(at 162.56 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c1b0ec9-deb4-49d9-9f11-4aaaa21948cd")
+	)
+	(label "MCU_SCL1"
+		(at 120.65 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "30565527-80d5-4c86-9b6d-59f93d174ec9")
+	)
+	(label "MCU_SDA1"
+		(at 162.56 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "550f2866-7c33-4aff-8fb5-2832d6af2b62")
+	)
+	(label "MCU_SDA1"
+		(at 120.65 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "a40c04b9-3c76-4364-af54-6b12b184b70f")
+	)
 	(sheet
 		(at 179.07 107.95)
-		(size 24.13 27.94)
+		(size 24.13 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -228,7 +368,7 @@
 			)
 		)
 		(property "Sheetfile" "gps.kicad_sch"
-			(at 179.07 136.4746 0)
+			(at 179.07 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -268,7 +408,7 @@
 			)
 		)
 		(pin "SCK_BMV" input
-			(at 179.07 121.92 180)
+			(at 179.07 128.27 180)
 			(uuid "eda8fb9c-165a-44f7-868f-2030b6bce58d")
 			(effects
 				(font
@@ -278,7 +418,7 @@
 			)
 		)
 		(pin "SDA_BMV" bidirectional
-			(at 179.07 124.46 180)
+			(at 179.07 125.73 180)
 			(uuid "2d8f2de3-80fb-49f7-a8ad-64bdc4888848")
 			(effects
 				(font
@@ -288,7 +428,7 @@
 			)
 		)
 		(pin "SCL_BME" input
-			(at 179.07 127 180)
+			(at 179.07 133.35 180)
 			(uuid "d6c6bf0e-0020-4203-a4c2-fc1bc7464382")
 			(effects
 				(font
@@ -298,7 +438,7 @@
 			)
 		)
 		(pin "SDA_BME" bidirectional
-			(at 179.07 129.54 180)
+			(at 179.07 130.81 180)
 			(uuid "af8c5cf0-2e5e-4a61-86d1-6da9a9c4bd54")
 			(effects
 				(font
@@ -350,16 +490,6 @@
 				(hide yes)
 			)
 		)
-		(pin "SCL_FG" bidirectional
-			(at 101.6 104.14 0)
-			(uuid "f62ecc8a-73ff-4fc0-9765-ed0efe04eed9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "~{BATT_CHG}" output
 			(at 101.6 115.57 0)
 			(uuid "9fdda99d-6937-4e31-9efd-04a3ce61817d")
@@ -393,6 +523,16 @@
 		(pin "~{ALRT}" output
 			(at 101.6 113.03 0)
 			(uuid "178a9773-6cb9-40e7-a3c9-0fc68b1a0d0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_FG" input
+			(at 101.6 104.14 0)
+			(uuid "5df11d05-3c09-4fcc-a666-95388e0c1933")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,26 +848,6 @@
 				(justify left)
 			)
 		)
-		(pin "SCL_FG" bidirectional
-			(at 123.19 104.14 180)
-			(uuid "7068149e-0946-4a7a-be0c-7bab2d60417b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA_FG" bidirectional
-			(at 123.19 101.6 180)
-			(uuid "8d881412-18b7-4349-8ee2-c179c90cbb77")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{BATT_CONN}" input
 			(at 123.19 118.11 180)
 			(uuid "2a5072fe-0857-4c98-84bb-a2cb65cf39e4")
@@ -806,6 +926,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SCL1" output
+			(at 123.19 104.14 180)
+			(uuid "d5285dd2-5cab-4a5b-b76b-8e97f47e737d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA1" bidirectional
+			(at 123.19 101.6 180)
+			(uuid "db482ceb-9986-4d4a-bd1f-a9fcacf813ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

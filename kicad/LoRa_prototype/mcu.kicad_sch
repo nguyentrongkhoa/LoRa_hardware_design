@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "57a00f06-e3ae-4273-869e-5c2da1792e86")
+	(uuid "7b9f02a8-45d6-4e7c-a42f-0ac6eef6e67d")
 	(paper "A4")
 	(title_block
 		(title "STM32WL55")
@@ -3682,6 +3682,12 @@
 		(uuid "658d34d0-1ffb-44b4-a98b-b9641ee2898b")
 	)
 	(junction
+		(at 156.21 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e3d1ba0-7b81-424c-a90a-23d6769e3ac0")
+	)
+	(junction
 		(at 25.4 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3752,6 +3758,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b592678e-a524-4435-999b-f9ac16a7d8be")
+	)
+	(junction
+		(at 156.21 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b73a6f9d-9fc3-4989-aeab-3e15a5a29f3b")
 	)
 	(junction
 		(at 130.81 31.75)
@@ -4371,6 +4383,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 121.92) (xy 156.21 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43860bcf-56d0-43f4-b8af-b28dd45de74e")
+	)
+	(wire
+		(pts
 			(xy 78.74 90.17) (xy 80.01 90.17)
 		)
 		(stroke
@@ -4428,6 +4450,16 @@
 			(type default)
 		)
 		(uuid "530d4122-30d5-4aea-8ebb-8d3cd9db35c6")
+	)
+	(wire
+		(pts
+			(xy 156.21 128.27) (xy 160.02 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56df7231-d7ac-4ea5-bfd0-6e908fb9baf4")
 	)
 	(wire
 		(pts
@@ -4531,7 +4563,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 128.27) (xy 147.32 128.27)
+			(xy 140.97 128.27) (xy 156.21 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4658,6 +4690,16 @@
 			(type default)
 		)
 		(uuid "8caa8dff-27a6-4d25-947f-294685f1d302")
+	)
+	(wire
+		(pts
+			(xy 156.21 132.08) (xy 156.21 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2d94ab-3a37-44bc-9a91-09bbd743cd96")
 	)
 	(wire
 		(pts
@@ -4811,7 +4853,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 125.73) (xy 147.32 125.73)
+			(xy 146.05 125.73) (xy 156.21 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4858,6 +4900,16 @@
 			(type default)
 		)
 		(uuid "ba71fa82-f5c1-4582-8786-7a2d6e323040")
+	)
+	(wire
+		(pts
+			(xy 160.02 132.08) (xy 156.21 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7478ed-c218-4d77-8203-4118e822b07c")
 	)
 	(wire
 		(pts
@@ -5218,6 +5270,26 @@
 			(type default)
 		)
 		(uuid "f8eacfaa-555c-4789-b7f0-34712c1c1be2")
+	)
+	(wire
+		(pts
+			(xy 160.02 121.92) (xy 156.21 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94848ac-5445-4269-87f1-9b622adba6ef")
+	)
+	(wire
+		(pts
+			(xy 156.21 125.73) (xy 160.02 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3f9792-2ad2-4fe5-9cfb-e2cf654b5f1d")
 	)
 	(wire
 		(pts
@@ -8249,7 +8321,7 @@
 		)
 	)
 	(image
-		(at 163.83 119.38)
+		(at 162.56 115.57)
 		(scale 0.167162)
 		(uuid "891350b7-e3f4-42fc-b5f8-b49c738798e8")
 		(data "iVBORw0KGgoAAAANSUhEUgAAALgAAAJ2CAYAAADsTkgqAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz"
@@ -10584,9 +10656,9 @@
 		)
 		(uuid "1f0332de-0835-433b-8459-68560dab8646")
 	)
-	(hierarchical_label "SCL_FG"
-		(shape bidirectional)
-		(at 147.32 125.73 0)
+	(hierarchical_label "SCL1"
+		(shape output)
+		(at 160.02 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10740,9 +10812,9 @@
 		)
 		(uuid "e28228b2-41b1-440c-aa40-e37cf0c15aff")
 	)
-	(hierarchical_label "SDA_FG"
+	(hierarchical_label "SDA1"
 		(shape bidirectional)
-		(at 147.32 128.27 0)
+		(at 160.02 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15674,6 +15746,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 160.02 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d837b342-63e9-4474-8f65-eed9dd46c9c4")
+		(property "Reference" "TP21"
+			(at 163.83 134.366 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SDA1"
+			(at 163.83 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a57fda11-1c5c-4354-8caf-a240a8776ac3")
+		)
+		(instances
+			(project "LoRa_prototype"
+				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/aff57de4-7349-43c5-ba7a-251ada06728f"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 218.44 146.05 0)
 		(unit 1)
@@ -16003,6 +16141,72 @@
 			(project "LoRa_prototype"
 				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/aff57de4-7349-43c5-ba7a-251ada06728f"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 160.02 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef45e4be-2b7c-4b04-b0aa-5e49ab734dd9")
+		(property "Reference" "TP20"
+			(at 163.83 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCL1"
+			(at 163.83 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de3856ab-0aec-420d-a468-11ef61cada95")
+		)
+		(instances
+			(project ""
+				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/aff57de4-7349-43c5-ba7a-251ada06728f"
+					(reference "TP20")
 					(unit 1)
 				)
 			)

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "b3ce09cd-96f7-41bd-b451-50b3d6f9c456")
+	(uuid "b4221fa6-adbe-4163-8a04-30917a6dab07")
 	(paper "A4")
 	(title_block
 		(date "2026-04-13")
@@ -7548,7 +7548,7 @@
 		(uuid "fd08f4c5-32ab-4bbe-8477-4cc94ec959fe")
 	)
 	(hierarchical_label "SCL_FG"
-		(shape bidirectional)
+		(shape input)
 		(at 109.22 63.5 0)
 		(effects
 			(font
