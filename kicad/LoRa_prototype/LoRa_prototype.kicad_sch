@@ -257,9 +257,9 @@
 				(justify left)
 			)
 		)
-		(pin "GPS_~{RESET}" input
+		(pin "GPS_RESET" input
 			(at 179.07 118.11 180)
-			(uuid "8d41afa7-4a48-4a1b-a719-e5859e40e5c1")
+			(uuid "6e2f2bdf-b7aa-4d93-b5be-a913b8d27d3f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -758,9 +758,9 @@
 				(justify right)
 			)
 		)
-		(pin "GPS_~{RESET}" output
+		(pin "GPS_RESET" output
 			(at 165.1 118.11 0)
-			(uuid "354ceabc-fbf3-4956-b0fe-1a531cf687f5")
+			(uuid "505bed5e-332a-4042-bb6d-7687e8327137")
 			(effects
 				(font
 					(size 1.27 1.27)

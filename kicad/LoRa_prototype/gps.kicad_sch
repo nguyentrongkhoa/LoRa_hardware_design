@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ed766afe-02b4-4b61-b7b2-f6a87f746320")
+	(uuid "b300440a-4d32-4be6-8529-880aa742a65e")
 	(paper "A4")
 	(title_block
 		(date "2026-04-13")
@@ -4658,7 +4658,7 @@
 			"uURNIiIiagmDo0RERERERERERLQj/X8b2fu0hUB21AAAAABJRU5ErkJggg=="
 		)
 	)
-	(hierarchical_label "GPS_~{RESET}"
+	(hierarchical_label "GPS_RESET"
 		(shape input)
 		(at 187.96 116.84 180)
 		(effects
