@@ -22,6 +22,18 @@
 		)
 		(uuid "2c9774a4-1a74-4542-bb76-85db28a931f1")
 	)
+	(text "(pullup on MCU side)"
+		(exclude_from_sim no)
+		(at 160.782 130.302 0)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "59a7a97e-ba80-43ac-bfc7-15f707447c67")
+	)
 	(junction
 		(at 176.53 125.73)
 		(diameter 0)
