@@ -361,7 +361,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -370,11 +369,13 @@
 			(color 212 212 212 1.0000)
 		)
 		(uuid "0b8e018d-1945-475c-8020-0cbd093bbf1b")
-		(property "Sheetname" "GPS"
-			(at 179.07 107.2384 0)
+		(property "Sheetname" "GPS AND GAS SENSORS"
+			(at 169.418 145.034 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -468,13 +469,12 @@
 		)
 	)
 	(sheet
-		(at 83.82 99.06)
-		(size 17.78 25.4)
+		(at 85.09 99.06)
+		(size 16.51 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -483,17 +483,19 @@
 			(color 212 212 212 1.0000)
 		)
 		(uuid "5f290f36-0c09-4232-84b9-bfe06ad06aa2")
-		(property "Sheetname" "Power management"
-			(at 83.82 98.3484 0)
+		(property "Sheetname" "POWER"
+			(at 85.852 98.552 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 83.82 125.0446 0)
+			(at 85.09 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -562,7 +564,7 @@
 	)
 	(sheet
 		(at 179.07 69.85)
-		(size 24.13 34.29)
+		(size 35.56 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -576,11 +578,13 @@
 			(color 212 212 212 1.0000)
 		)
 		(uuid "724a66f0-96b6-4d19-9e27-2d301e795177")
-		(property "Sheetname" "RF Switch + Antenna"
-			(at 179.07 69.1384 0)
+		(property "Sheetname" "ANTENNA"
+			(at 179.07 68.5034 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -644,8 +648,8 @@
 		)
 	)
 	(sheet
-		(at 87.63 69.85)
-		(size 13.97 24.13)
+		(at 77.47 69.85)
+		(size 24.13 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -658,17 +662,19 @@
 			(color 212 212 212 1.0000)
 		)
 		(uuid "90bf3950-abae-4ac1-9a2d-ebd17dec7caa")
-		(property "Sheetname" "Programming interface"
-			(at 84.836 69.342 0)
+		(property "Sheetname" "PROGRAMMING"
+			(at 75.692 69.088 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "programming_interface.kicad_sch"
-			(at 87.63 94.5646 0)
+			(at 77.47 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,10 +768,12 @@
 		)
 		(uuid "aff57de4-7349-43c5-ba7a-251ada06728f")
 		(property "Sheetname" "MCU"
-			(at 123.19 69.1384 0)
+			(at 123.19 68.5034 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
