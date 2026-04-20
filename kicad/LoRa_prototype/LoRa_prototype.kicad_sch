@@ -420,7 +420,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCK_BMV" input
+		(pin "SCL_BMV" input
 			(at 179.07 128.27 180)
 			(uuid "eda8fb9c-165a-44f7-868f-2030b6bce58d")
 			(effects
@@ -569,7 +569,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -579,7 +578,7 @@
 		)
 		(uuid "724a66f0-96b6-4d19-9e27-2d301e795177")
 		(property "Sheetname" "ANTENNA"
-			(at 179.07 68.5034 0)
+			(at 188.722 68.58 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -758,7 +757,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -768,7 +766,7 @@
 		)
 		(uuid "aff57de4-7349-43c5-ba7a-251ada06728f")
 		(property "Sheetname" "MCU"
-			(at 123.19 68.5034 0)
+			(at 140.208 69.088 0)
 			(effects
 				(font
 					(size 2.54 2.54)

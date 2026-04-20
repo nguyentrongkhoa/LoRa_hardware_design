@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "086e0abf-c506-428d-a90c-887d5483c5a0")
+	(uuid "5b17565f-41d1-46de-bfd2-21fa01a39813")
 	(paper "A4")
 	(title_block
 		(title "STLinkV3-Minie programming interface")
