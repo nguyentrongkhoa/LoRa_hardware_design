@@ -34,6 +34,29 @@
 		)
 		(uuid "59a7a97e-ba80-43ac-bfc7-15f707447c67")
 	)
+	(text_box "Even though this schematic is done, STM32WL55JCI6 is not available at the moment\non JLCPCB and has a long lead time. Therefore STM32WL55CCU6 should be used instead"
+		(exclude_from_sim no)
+		(at 100.33 48.283 0)
+		(size 90.17 6.327)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 252 255 127 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7f86a4c4-7aa5-46b3-9144-16c08f3e8897")
+	)
 	(junction
 		(at 176.53 125.73)
 		(diameter 0)
