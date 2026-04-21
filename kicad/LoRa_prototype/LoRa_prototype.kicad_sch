@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "9fad4700-f514-47ad-821a-b4076ecc08de")
 	(paper "A4")
 	(title_block
@@ -366,11 +366,13 @@
 			(type solid)
 		)
 		(fill
-			(color 212 212 212 1.0000)
+			(color 212 212 212 1)
 		)
 		(uuid "0b8e018d-1945-475c-8020-0cbd093bbf1b")
 		(property "Sheetname" "GPS AND GAS SENSORS"
 			(at 169.418 145.034 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -382,12 +384,14 @@
 		)
 		(property "Sheetfile" "gps.kicad_sch"
 			(at 179.07 140.2846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "GPS_RX" bidirectional
@@ -480,11 +484,13 @@
 			(type solid)
 		)
 		(fill
-			(color 212 212 212 1.0000)
+			(color 212 212 212 1)
 		)
 		(uuid "5f290f36-0c09-4232-84b9-bfe06ad06aa2")
 		(property "Sheetname" "POWER"
 			(at 85.852 98.552 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -496,12 +502,14 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 85.09 125.0446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "~{BATT_CHG}" output
@@ -574,11 +582,13 @@
 			(type solid)
 		)
 		(fill
-			(color 212 212 212 1.0000)
+			(color 212 212 212 1)
 		)
 		(uuid "724a66f0-96b6-4d19-9e27-2d301e795177")
 		(property "Sheetname" "ANTENNA"
 			(at 188.722 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -590,12 +600,14 @@
 		)
 		(property "Sheetfile" "antenna.kicad_sch"
 			(at 179.07 104.7246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "RF_SW_V1" input
@@ -658,11 +670,13 @@
 			(type solid)
 		)
 		(fill
-			(color 212 212 212 1.0000)
+			(color 212 212 212 1)
 		)
 		(uuid "90bf3950-abae-4ac1-9a2d-ebd17dec7caa")
 		(property "Sheetname" "PROGRAMMING"
 			(at 75.692 69.088 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -674,12 +688,14 @@
 		)
 		(property "Sheetfile" "programming_interface.kicad_sch"
 			(at 77.47 94.5646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "VCP_RX" input
@@ -762,11 +778,13 @@
 			(type solid)
 		)
 		(fill
-			(color 212 212 212 1.0000)
+			(color 212 212 212 1)
 		)
 		(uuid "aff57de4-7349-43c5-ba7a-251ada06728f")
 		(property "Sheetname" "MCU"
 			(at 140.208 69.088 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -778,12 +796,14 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 123.19 122.5046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "LORA_RX" input
