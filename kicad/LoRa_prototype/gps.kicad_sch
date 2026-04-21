@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "48da73cb-a875-4922-87bb-09ef761eea46")
+	(uuid "7df8e567-0aea-47e0-b883-8059deb79372")
 	(paper "A4")
 	(title_block
 		(title "GPS and gas sensor modules")
@@ -9831,7 +9831,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 269.24 57.15 0)
 			(effects
 				(font
@@ -9909,7 +9909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOTFL50P160X85-3N"
 			(at 256.54 81.28 0)
 			(effects
 				(font
@@ -10150,7 +10150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 267.462 64.77 90)
 			(effects
 				(font
@@ -10219,7 +10219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 209.2452 54.61 0)
 			(effects
 				(font
@@ -10288,7 +10288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 248.92 60.198 90)
 			(effects
 				(font
@@ -10690,7 +10690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 227.0252 54.61 0)
 			(effects
 				(font
@@ -10890,7 +10890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 248.92 70.358 90)
 			(effects
 				(font
@@ -11286,7 +11286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CON_5035661302_MOL"
 			(at 44.45 137.16 0)
 			(effects
 				(font
@@ -11454,7 +11454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOTFL50P160X85-3N"
 			(at 266.7 73.66 0)
 			(effects
 				(font
@@ -11658,7 +11658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 236.22 60.198 90)
 			(effects
 				(font
@@ -12251,7 +12251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 200.3552 54.61 0)
 			(effects
 				(font
@@ -12386,7 +12386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 26.3652 140.97 0)
 			(effects
 				(font
