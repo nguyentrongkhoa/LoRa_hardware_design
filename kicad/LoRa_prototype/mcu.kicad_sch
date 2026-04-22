@@ -4086,6 +4086,29 @@
 		)
 		(uuid "f59879fe-9d16-4346-9140-e43e161a2cdb")
 	)
+	(text_box "RF components:\n\nHigh-Q Murata GJM15 series for caps\nHigh-Q Murata LQW15AN series for inductors\n\n"
+		(exclude_from_sim no)
+		(at 93.98 169.418 0)
+		(size 46.736 10.4163)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 249 106 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "0034fa20-bca7-4b05-bc2f-d93a25993e60")
+	)
 	(junction
 		(at 20.32 58.42)
 		(diameter 0)
@@ -12891,7 +12914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12nH"
+		(property "Value" "10nH"
 			(at 248.92 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14630,7 +14653,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3pF"
+		(property "Value" "3pF"
 			(at 222.25 130.048 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14941,7 +14964,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.6pF"
+		(property "Value" "0.75pF"
 			(at 226.314 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15022,7 +15045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.4pF"
+		(property "Value" "3pF"
 			(at 250.444 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16529,7 +16552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3pF"
+		(property "Value" "4.7pF"
 			(at 248.158 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17003,7 +17026,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2pF"
+		(property "Value" "3pF"
 			(at 254 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18260,7 +18283,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5nH"
+		(property "Value" "10nH"
 			(at 242.57 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18340,7 +18363,7 @@
 				)
 			)
 		)
-		(property "Value" "3.5nH"
+		(property "Value" "3.6nH"
 			(at 212.09 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19209,7 +19232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7.7pF"
+		(property "Value" "8.2pF"
 			(at 218.694 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20000,7 +20023,7 @@
 				)
 			)
 		)
-		(property "Value" "2.6nH"
+		(property "Value" "2.7nH"
 			(at 222.25 137.922 90)
 			(show_name no)
 			(do_not_autoplace no)
