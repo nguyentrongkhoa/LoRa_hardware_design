@@ -3948,9 +3948,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -5150,6 +5147,17 @@
 		)
 		(uuid "f48f986e-7b2d-48f2-af0d-39bfc865e042")
 	)
+	(text "32.768000kHz"
+		(exclude_from_sim no)
+		(at 29.718 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "f5282f99-961a-4e28-9c73-eefa68f63610")
+	)
 	(text "(Always boot from main flash)"
 		(exclude_from_sim no)
 		(at 97.282 120.142 0)
@@ -5182,6 +5190,28 @@
 			(justify left top)
 		)
 		(uuid "0034fa20-bca7-4b05-bc2f-d93a25993e60")
+	)
+	(text_box "Link to crystal"
+		(exclude_from_sim no)
+		(at 36.83 84.9517 0)
+		(size 16.51 3.9483)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 247 255 80 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+			(href "https://jlcpcb.com/partdetail/SeikoEpson-Q13FC13500004/C32346")
+		)
+		(uuid "d84d963b-c5ec-48db-b242-4ee6881accfa")
 	)
 	(junction
 		(at 20.32 58.42)
@@ -14545,7 +14575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1pF"
+		(property "Value" "12.5pF"
 			(at 36.322 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14626,7 +14656,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1pF"
+		(property "Value" "12.5pF"
 			(at 23.368 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15267,7 +15297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:NT2016SF TCXO"
 			(at 29.21 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -17500,7 +17530,7 @@
 				)
 			)
 		)
-		(property "Value" "32768Hz"
+		(property "Value" "LSE"
 			(at 29.464 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17510,7 +17540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 29.21 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -18293,7 +18323,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 143.51 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19475,7 +19505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:TS-1088-AR02016"
 			(at 33.02 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -21902,6 +21932,32 @@
 			"f2502cdb-ca15-4c50-b260-cddfa995a023" "f29f7053-1a05-44f3-b944-45ca659a89ec"
 			"f4d56579-d314-402c-aba7-9aa7af7b9b7d" "fbea6b7f-40d2-405e-9de7-0ed283051786"
 			"fe24a97c-63a3-4430-9163-8983d1ba825a" "ffb9f146-4af0-4024-bc33-268b120d19d3"
+		)
+	)
+	(group "Crystals"
+		(uuid "7f050556-17ef-4acc-b749-53d0a0b4dcc1")
+		(members "0131010e-98cc-4511-bc0d-da0821f78244" "0ef9bd5a-c4a4-4c0f-bbc5-0c07e9539615"
+			"1c9b325f-f363-4d43-b3c1-4fdfe486076c" "1ca60008-4da7-498b-aaa0-9d833e48a596"
+			"24139092-2a8e-4ab9-9936-116e0282de1c" "265b02d9-6a0d-4f13-b8f8-cc6d24663a78"
+			"2fa8d7e8-c419-4d84-88ac-592225dd1e38" "3d5edb10-198e-4fc4-b183-cb62556fddab"
+			"456f71d9-53ae-423e-93b4-e91a0128f17b" "509a1b49-96e9-4c18-bc11-75d18778e8fb"
+			"56e0e92b-6608-4598-8e7e-4001b705daee" "5e01ecd7-3b4a-4071-bb2c-c6c4f9b3d0fa"
+			"5f91d072-0735-413a-8cf8-4a735734da00" "5ff36ed1-f2dd-4430-8767-1af45fbd1308"
+			"6131293a-8fce-4cc9-b89b-8d7c416ecb18" "66fa982f-530c-43b3-a9ce-1f48db05f8d7"
+			"701c7268-9f04-4945-99b3-cbf8d4b63182" "76f07008-22d8-4496-8804-9008ee6c769e"
+			"897af834-9615-4c5a-82f2-47e6c4795b25" "8a5685ef-b085-4a06-b8aa-d69b1dc9044c"
+			"8e6f1584-c634-4891-8627-9f080d4bb6a8" "a243fc16-e60f-4e84-bd24-a123b049121d"
+			"a3182571-d53f-4851-866b-1001ee527e47" "b239c4a0-c314-4429-ad64-e2093f4a6479"
+			"b572338d-d7e6-4be2-918d-5daf0286e604" "bc609901-e3b2-4125-9b6c-29d793086d56"
+			"be060f7d-4bbe-4f7b-b7fd-078a4809f604" "c3802325-eaef-4699-9c16-c4e7df9fb6a2"
+			"cbe89259-d560-4aa9-9e10-341d9fb401e9" "ccf29687-3704-4176-a5cf-5e555e5b6c5c"
+			"d2d8415e-33b7-4946-9a0b-e68025cf207c" "d84d963b-c5ec-48db-b242-4ee6881accfa"
+			"e0de5d6f-8c78-4710-90ec-a8162c3f8272" "e0effaa2-fd82-492a-849c-1e8c1032e8cd"
+			"e1483134-8060-4edd-9c27-c2b11b432545" "e6c9a3da-3457-4937-86b4-4c9e760a02fa"
+			"ecf1838b-fdf1-4b15-b61d-df3f309df102" "f34baa0a-7b7d-4bf8-a3ca-3d2ec8693c74"
+			"f5282f99-961a-4e28-9c73-eefa68f63610" "f55a2e63-dc3b-4bb3-9995-00b8e2bcfde1"
+			"f8dcf6eb-8a98-4a92-b8eb-58113ac46de4" "fba21304-e36a-4a4e-b3fb-8888c43f7868"
+			"fc686b08-daae-4007-b1a2-6f28f4b95fcc"
 		)
 	)
 	(group "MCU"

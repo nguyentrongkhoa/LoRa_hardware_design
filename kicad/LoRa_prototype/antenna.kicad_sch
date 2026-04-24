@@ -1619,7 +1619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:IPEX-SMD_BWIPX-1-001E"
+		(property "Footprint" ""
 			(at 148.59 90.17 0)
 			(hide yes)
 			(show_name no)
