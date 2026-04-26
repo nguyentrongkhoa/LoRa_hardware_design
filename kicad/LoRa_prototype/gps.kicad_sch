@@ -12902,7 +12902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BME688:IC_BME688"
+		(property "Footprint" "footprints:IC_BME688"
 			(at 63.5 81.28 0)
 			(hide yes)
 			(show_name no)

@@ -16136,7 +16136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PESD3V3L4UG:DIO_PESD3V3L4UG"
+		(property "Footprint" "footprints:DIO_PESD3V3L4UG"
 			(at 24.13 26.67 0)
 			(hide yes)
 			(show_name no)

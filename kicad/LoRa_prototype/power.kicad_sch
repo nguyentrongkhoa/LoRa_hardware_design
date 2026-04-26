@@ -1565,8 +1565,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -1.524 5.08 0)
+			(property "Reference" "U4"
+				(at -1.27 7.112 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1575,8 +1575,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "SPV1050"
+				(at -1.016 4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1585,7 +1585,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:QFN40P300X300X100-21N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1628,24 +1628,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin output line
-					(at 0 -21.59 90)
-					(length 2.54)
-					(name "~{BATT_CONN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -1767,6 +1749,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -21.59 90)
+					(length 2.54)
+					(name "~{BATT_CONN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11559,7 +11559,7 @@
 		(pin "5"
 			(uuid "5ac0fe03-8169-4530-b0e5-c47e3202f5a7")
 		)
-		(pin ""
+		(pin "8"
 			(uuid "892a8fb5-34fd-4f37-ab8a-ac627a72bdbc")
 		)
 		(pin "17"

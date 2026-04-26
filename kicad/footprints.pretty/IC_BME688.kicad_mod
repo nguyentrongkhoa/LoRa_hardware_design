@@ -1,5 +1,5 @@
 
-(footprint IC_BME688 (layer F.Cu) (tedit 69E3B62D)
+(footprint IC_BME688 (layer F.Cu) (tedit 69EE66D4)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at 0.2 -2.4 0) (layer F.SilkS)
