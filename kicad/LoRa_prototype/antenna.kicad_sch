@@ -343,146 +343,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Extended:RF, Connector, U.FL"
 			(pin_names
 				(offset 1.016)
@@ -1351,16 +1211,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 128.27 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0091818b-7c76-4696-ba2d-35dbf5b375cc")
-	)
-	(wire
-		(pts
 			(xy 151.13 101.6) (xy 151.13 104.14)
 		)
 		(stroke
@@ -1371,7 +1221,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 96.52) (xy 113.03 96.52)
+			(xy 110.49 96.52) (xy 128.27 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2611,85 +2461,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 116.84 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54d06796-27b2-496a-b12c-30c471821507")
-		(property "Reference" "R2"
-			(at 116.84 94.488 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 116.84 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.84 98.298 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d46973ff-dd67-4480-bb94-9bf8be5c2d46")
-		)
-		(pin "2"
-			(uuid "8fb88b3c-3c4e-4af4-975b-009308d070da")
-		)
-		(instances
-			(project "LoRa_prototype"
-				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/724a66f0-96b6-4d19-9e27-2d301e795177"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 128.27 100.33 0)
 		(unit 1)
@@ -3344,6 +3115,32 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(group "Antenna"
+		(uuid "ec899975-f2b3-46e6-aade-7a5eee6375ba")
+		(members "050ef20b-fa12-40fb-b022-fac2ddff0c45" "1ec5ddc9-b07d-47ae-b1d7-5211c8caab72"
+			"24f4a0e4-642e-4348-8b3e-08af298acdba" "2890366f-401b-4d8e-aec8-d48131286351"
+			"2e0b9c03-5ce5-49a8-a9a1-c5c31d3e77c5" "313d8f98-c0af-40de-8285-65d479be0bfe"
+			"33ec819e-854c-4936-9042-0dbd50217fef" "353ff888-3c85-4e9e-ba76-367331d82f1c"
+			"3b74cdae-95ce-4c8d-bae9-f1978d054745" "3cf43089-90e0-4f18-927c-26f8244872fa"
+			"407e2344-269e-4341-a0b4-725e004f0a66" "4166c051-a966-487c-a30e-fd2df7902878"
+			"54847eed-d7aa-41a3-89c5-7e6e2a855c38" "54b644a2-2b57-40c9-b1e4-7a7c2e46ca51"
+			"56faba86-7110-4cbb-bedd-e4f2f5a4c0cd" "5acc9b2d-4b98-4924-bc94-b008e14dd705"
+			"6211fd16-cd02-4cc7-aaa6-54fc715877b9" "668234c3-45c5-4b3c-97fa-55c7ee607220"
+			"6a5e0b00-9dcb-44cc-9ced-cf59e2771800" "70ef8dff-fe0c-4535-99c5-33ae977732b4"
+			"7817553c-0a96-426a-a649-15836761c1d5" "7d43f52f-6f81-4778-8f4b-07f8e1e9b973"
+			"87eba274-bd9a-485e-b029-3585d9402279" "8c5a8624-2194-4aca-8d27-7fda8ca437fb"
+			"8dc6ce59-7893-4559-9fe2-67bb3c37f750" "8fce88c0-cfa2-4ce2-9a3c-6adcb6635c08"
+			"8fcfcd61-690c-4b0e-990f-da15a2abcc6a" "962f4cad-b978-43aa-b75a-a9eb60a7b409"
+			"989583d4-71ba-4e6b-ae9e-c850d68df0b6" "a5acee87-cdf3-498b-bbc4-c7afad8634cf"
+			"b06e0cd8-e128-45a9-af9d-218f460c80a6" "b6cd4d47-24c8-4ce3-9419-115df96e6873"
+			"b7ef53b6-9dff-4056-affb-03a719fa99f5" "b910f3ed-7772-4e36-a660-e385ce0db4b3"
+			"bb20aa67-ef28-4f5f-bcba-6117c5b9c0b7" "c1daacac-caec-4c59-b601-a5735ce7f3c2"
+			"c2ff62e4-69c4-4d6d-bee3-39bdef27ffee" "c5f54d49-b0ee-429e-99b0-baa3645f042b"
+			"caa39a5e-b001-4989-8b20-d896a9a5586a" "ccc94b38-0140-422d-a1b1-af47d034ac86"
+			"d6bb5215-8566-4829-91b5-fb72b3497667" "da63f407-721b-416a-8b7c-e10a2d56271b"
+			"e01ad334-5b53-4899-9680-eed664c37d1f" "fa5c03a0-5e59-4027-8992-0169aa9ba20a"
 		)
 	)
 )
