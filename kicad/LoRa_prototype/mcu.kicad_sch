@@ -13249,7 +13249,7 @@
 		(uuid "3ebaf664-0cee-4a94-9e5c-636667bbaa7c")
 	)
 	(label "SCL1"
-		(at 133.35 138.43 0)
+		(at 129.54 135.89 0)
 		(effects
 			(font
 				(size 1 1)
@@ -13437,7 +13437,7 @@
 		(uuid "bf1a8c10-8222-4f9a-8824-917969d36d33")
 	)
 	(label "SDA1"
-		(at 133.35 135.89 0)
+		(at 129.54 138.43 0)
 		(effects
 			(font
 				(size 1 1)
