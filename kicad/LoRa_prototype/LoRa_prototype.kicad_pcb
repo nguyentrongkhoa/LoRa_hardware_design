@@ -3029,7 +3029,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "25ea31a0-66d6-4e1f-b509-5657541be55f")
-		(at 174.43 104)
+		(at 154.75 96)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -8451,7 +8451,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4ed70896-ffde-42e4-9e79-904dfb71fc16")
-		(at 174.43 108)
+		(at 151.25 96 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C8"
@@ -8523,16 +8523,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "df912b1d-9789-4d0f-8dfc-670a4254b3ea")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -8541,6 +8531,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c61c811c-2dde-4e9d-be66-ac943b9d39e4")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "df912b1d-9789-4d0f-8dfc-670a4254b3ea")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -8576,7 +8576,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -8585,7 +8585,7 @@
 			(uuid "61c9616d-e057-45c7-9b7e-54212a9a0f02")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15632,13 +15632,13 @@
 	(footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 		(layer "F.Cu")
 		(uuid "9a9c0433-bba5-437b-b830-2b0c35f599ee")
-		(at 175.2 106)
+		(at 153 94.25)
 		(descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
 		(tags "SMD SMT Crystal")
 		(property "Reference" "X1"
 			(at 0 -2 0)
 			(layer "F.SilkS")
-			(uuid "59fe0cc9-a36f-4fdd-b906-4a4ab2bef34d")
+			(uuid "2db11475-60db-4a08-b751-944c701716f1")
 			(effects
 				(font
 					(size 1 1)
@@ -15649,7 +15649,7 @@
 		(property "Value" "LSE"
 			(at 0 2 0)
 			(layer "F.Fab")
-			(uuid "b897a7c0-a1af-4457-aac7-fbc0ea5faa42")
+			(uuid "da479f55-47d9-43a7-9377-c0d22952489a")
 			(effects
 				(font
 					(size 1 1)
@@ -15662,7 +15662,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6343ebae-60c1-4c8c-bad7-99af09e24f88")
+			(uuid "3753e833-629f-4023-b51e-6332744e7362")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15675,7 +15675,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0cffecfe-d0c8-47eb-bd48-13b9174f7394")
+			(uuid "b5b763c7-6233-4fb2-a577-2cad997f735b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24657,7 +24657,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "ddd8904c-0d33-4f40-a104-016aa1db758e")
-		(at 152.602031 95.842959)
+		(at 140.2 92.25)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C43"
@@ -28445,6 +28445,46 @@
 		(uuid "17ffc57b-e6a6-4068-8f31-f08b8738f111")
 	)
 	(segment
+		(start 154.25 95.98)
+		(end 154.27 96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/OSC32_IN")
+		(uuid "2998f5f7-395f-44a4-b5e5-e20377530b92")
+	)
+	(segment
+		(start 153.5 96)
+		(end 154.27 96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/OSC32_IN")
+		(uuid "3ab62182-3e17-44e8-a5fe-5263432b2c13")
+	)
+	(segment
+		(start 154.25 94.25)
+		(end 154.25 95.98)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/OSC32_IN")
+		(uuid "4103ce47-f324-4e95-b2e1-24609d7de2ad")
+	)
+	(segment
+		(start 152.267031 98.565459)
+		(end 152.267031 97.232969)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/OSC32_IN")
+		(uuid "9ff1e7aa-124e-4c02-9b0b-38baf3a007e2")
+	)
+	(segment
+		(start 152.267031 97.232969)
+		(end 153.5 96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/OSC32_IN")
+		(uuid "c2d75570-42f6-4c2b-9e0b-bab07eaf3ea5")
+	)
+	(segment
 		(start 155.702959 104.252959)
 		(end 153.954531 104.252959)
 		(width 0.2)
@@ -28491,6 +28531,38 @@
 		(layer "F.Cu")
 		(net "/MCU/VDD_TCXO")
 		(uuid "e533b79f-ef0f-4823-8a77-f1382c5dd4d4")
+	)
+	(segment
+		(start 151.767031 96.037031)
+		(end 151.73 96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/OSC32_OUT")
+		(uuid "17b8e4fd-e43c-4bdf-a33f-574714d78562")
+	)
+	(segment
+		(start 151.75 94.25)
+		(end 151.75 95.98)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/OSC32_OUT")
+		(uuid "62b5c70e-7bc1-46a2-bc2c-e6ab2a79eabf")
+	)
+	(segment
+		(start 151.767031 98.565459)
+		(end 151.767031 96.037031)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/OSC32_OUT")
+		(uuid "638844e4-f32d-4370-b7b0-260467f5951b")
+	)
+	(segment
+		(start 151.75 95.98)
+		(end 151.73 96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/OSC32_OUT")
+		(uuid "9b666859-1e22-4758-9d18-4f5b0084d5c2")
 	)
 	(segment
 		(start 160.25 105)
@@ -28590,8 +28662,10 @@
 	)
 	(group "LSE"
 		(uuid "74f8ddc4-d7ca-49e3-8b9c-b3214ed22825")
-		(members "25ea31a0-66d6-4e1f-b509-5657541be55f" "4ed70896-ffde-42e4-9e79-904dfb71fc16"
-			"9a9c0433-bba5-437b-b830-2b0c35f599ee"
+		(members "25ea31a0-66d6-4e1f-b509-5657541be55f" "2998f5f7-395f-44a4-b5e5-e20377530b92"
+			"4103ce47-f324-4e95-b2e1-24609d7de2ad" "4ed70896-ffde-42e4-9e79-904dfb71fc16"
+			"62b5c70e-7bc1-46a2-bc2c-e6ab2a79eabf" "9a9c0433-bba5-437b-b830-2b0c35f599ee"
+			"9b666859-1e22-4758-9d18-4f5b0084d5c2"
 		)
 	)
 	(group ""
