@@ -53,7 +53,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -187,7 +193,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +222,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -498,18 +511,30 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.3,
+        "name": "50Ω",
+        "pcb_color": "rgb(255, 56, 235)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 56, 235)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "wire_width": 16
+      },
+      {
         "line_style": 0,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "pcb_color": "rgb(0, 0, 0)",
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 0)",
         "tuning_profile": "",
         "wire_width": 16
       },
       {
         "name": "I2C1",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 1,
         "schematic_color": "rgb(0, 0, 255)",
         "tuning_profile": "",
         "wire_width": 16
@@ -517,8 +542,8 @@
       {
         "line_style": 0,
         "name": "VDD",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 3,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 16
@@ -528,7 +553,50 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/ANTENNA/LORA_RX": [
+        "50Ω"
+      ],
+      "/ANTENNA/LORA_TX": [
+        "50Ω"
+      ],
+      "/MCU/RFI_N": [
+        "50Ω"
+      ],
+      "/MCU/RFI_P": [
+        "50Ω"
+      ],
+      "/MCU/RFO_LP": [
+        "50Ω"
+      ],
+      "/MCU/VR_PA": [
+        "50Ω"
+      ],
+      "Net-(C20-Pad1)": [
+        "50Ω"
+      ],
+      "Net-(C21-Pad2)": [
+        "50Ω"
+      ],
+      "Net-(C23-Pad2)": [
+        "50Ω"
+      ],
+      "Net-(C37-Pad2)": [
+        "50Ω"
+      ],
+      "Net-(J4-In)": [
+        "50Ω"
+      ],
+      "Net-(U5-J1)": [
+        "50Ω"
+      ],
+      "Net-(U5-J2)": [
+        "50Ω"
+      ],
+      "Net-(U5-J3)": [
+        "50Ω"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "VDD",
@@ -541,6 +609,10 @@
       {
         "netclass": "I2C1",
         "pattern": "SCL1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
       }
     ]
   },

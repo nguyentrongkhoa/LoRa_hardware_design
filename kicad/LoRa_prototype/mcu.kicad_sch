@@ -4914,12 +4914,6 @@
 		(uuid "08dd59ef-e146-415f-a51f-381fb328f7c3")
 	)
 	(junction
-		(at 229.87 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "113b4689-d754-4846-912e-07d9269ddb94")
-	)
-	(junction
 		(at 38.1 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4930,6 +4924,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25538025-0d73-4018-abd6-f1076e08b3ea")
+	)
+	(junction
+		(at 229.87 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bb18686-7dd1-4799-be52-80e3ee5e7d73")
 	)
 	(junction
 		(at 80.01 45.72)
@@ -5008,6 +5008,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "714305b7-8444-4a1c-a367-2ae293f2b213")
+	)
+	(junction
+		(at 232.41 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71cbc809-9144-4dba-8cf3-08abc7d91fba")
 	)
 	(junction
 		(at 143.51 125.73)
@@ -5275,7 +5281,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 134.62) (xy 229.87 146.05)
+			(xy 229.87 139.7) (xy 229.87 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5715,6 +5721,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 133.35) (xy 232.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552d03dd-c6ff-4edc-8abb-1bb5a0621498")
+	)
+	(wire
+		(pts
 			(xy 124.46 85.09) (xy 125.73 85.09)
 		)
 		(stroke
@@ -5765,7 +5781,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 127) (xy 229.87 125.73)
+			(xy 229.87 132.08) (xy 229.87 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5855,17 +5871,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 139.7) (xy 232.41 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "684a06c2-5efa-41ea-9b69-fdd63e6dd1ba")
-	)
-	(wire
-		(pts
-			(xy 222.25 146.05) (xy 220.98 146.05)
+			(xy 222.25 146.05) (xy 215.9 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6112,6 +6118,16 @@
 			(type default)
 		)
 		(uuid "933059bf-c806-4cd4-ab7f-b407c6884529")
+	)
+	(wire
+		(pts
+			(xy 232.41 139.7) (xy 232.41 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93601584-7183-4854-b6d4-25cf3a289e54")
 	)
 	(wire
 		(pts
@@ -13550,7 +13566,7 @@
 		(uuid "6c2bc32a-0460-492a-bc3f-d9f25c32897b")
 	)
 	(label "RFO_LP"
-		(at 220.98 146.05 180)
+		(at 215.9 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13908,6 +13924,330 @@
 			(justify left)
 		)
 		(uuid "e5e7e02c-480c-42a3-9a55-cf8e298ccb32")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 232.41 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "113eec66-8106-4857-8e64-d3a0e11091d6")
+		(property "Net Class" "50Ω"
+			(at 233.1085 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 157.48 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 271.78 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "16ee0e1d-3749-420c-91e1-d54060896f5d")
+		(property "Net Class" "50Ω"
+			(at 272.4785 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 196.85 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 250.19 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "25e025cc-f67d-42f2-b852-ac7b69046e62")
+		(property "Net Class" "50Ω"
+			(at 250.8885 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 175.26 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 256.54 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f7ec5e5-43b1-494f-8b54-ac2fd6c2c36a")
+		(property "Net Class" "50Ω"
+			(at 257.2385 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 181.61 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 229.87 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "738db06f-498a-4e1f-ada4-2c202989b463")
+		(property "Net Class" "50Ω"
+			(at 230.5685 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 154.94 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 256.54 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "77714816-51d0-44b6-aa05-759d797b8849")
+		(property "Net Class" "50Ω"
+			(at 257.2385 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 181.61 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 217.17 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4ec2e94-05b9-4638-b085-81e290a09a7c")
+		(property "Net Class" "50Ω"
+			(at 217.8685 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 142.24 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 240.03 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0f8e1dc-5971-40c9-b9b7-735f193164de")
+		(property "Net Class" "50Ω"
+			(at 240.7285 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 165.1 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 264.16 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f78f274f-2125-41c4-8fc1-a4b72b154be1")
+		(property "Net Class" "50Ω"
+			(at 264.8585 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 189.23 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
@@ -16226,7 +16566,7 @@
 		(dnp no)
 		(uuid "3d5fbb9a-cdd0-4621-92aa-eda7aa4ce754")
 		(property "Reference" "C21"
-			(at 236.22 134.112 90)
+			(at 235.966 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18754,7 +19094,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 229.87 130.81 0)
+		(at 229.87 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18762,10 +19102,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "82fe00bb-f8e4-47d8-bd67-57f93884262c")
 		(property "Reference" "L3"
-			(at 231.14 129.5399 0)
+			(at 227.076 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18776,7 +19115,7 @@
 			)
 		)
 		(property "Value" "47nH"
-			(at 231.14 132.0799 0)
+			(at 224.282 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18787,7 +19126,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 229.87 130.81 0)
+			(at 229.87 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18798,7 +19137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 130.81 0)
+			(at 229.87 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18809,7 +19148,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 229.87 130.81 0)
+			(at 229.87 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21997,35 +22336,41 @@
 		(members "01e28b24-2687-4be9-8d5a-06bd7ae08d29" "045559e1-4fe2-4faa-8515-0eb311767507"
 			"0597365e-1149-4c79-a4b8-f7c5a9cab140" "0b984c84-976e-42c2-afd2-a51a298a016b"
 			"0d3dcb94-66be-4193-8960-bff75fb720a6" "0d4a2dd6-20b5-4526-add5-ce7dfe95eb7c"
-			"0fb7095e-c506-407f-a524-05ee17957699" "113b4689-d754-4846-912e-07d9269ddb94"
-			"159207ac-f20c-48c1-adf6-dcd45d1cfdac" "1c1ee3da-b187-46f4-8351-5b9a7502479b"
-			"1c83b148-e355-410f-8b81-503592fdf156" "1d9e8fa2-c631-41c7-b9a5-1eb3db4d7b72"
-			"249b94aa-3bd9-4ba2-95c1-0ae36521b8ff" "2d93e511-d243-429e-b868-c71ff9a490dd"
-			"2e0164da-c26e-4aef-bf8c-56aafca868d1" "2ec60797-8abd-460e-b67c-6c5c02a08c6f"
-			"3599554c-e8c5-458c-a8f6-ca4fe2c24ac9" "36975ebe-5bc4-4dc5-8f79-33d1a0072089"
-			"39b53831-0c36-456d-8c7e-a810192907dd" "3c4d6f5e-4342-46e4-a956-73dacc383134"
-			"3d5fbb9a-cdd0-4621-92aa-eda7aa4ce754" "441d8837-86bb-4ef9-bc16-1fba10e027b4"
-			"4461c4aa-3616-44e3-b7a0-7f6e3b55e44a" "44f5b64e-f4ed-4620-a367-643bd812eb07"
-			"4bd63f85-2405-425e-8ce6-f0bb85fcaffd" "4cbfc40e-0e5c-4747-b5a9-8d61cf906887"
-			"4e7ef8eb-bd33-41d3-9a88-aa526b2a8ee2" "530d4122-30d5-4aea-8ebb-8d3cd9db35c6"
-			"580f0a7a-ec91-402b-863c-84509460bf55" "5d1f58c8-184b-4c10-b6e2-fae89a45acdf"
-			"62b7ca41-b1a5-4ddb-8b3a-25752f6a235f" "635e4e8a-ecf4-41df-93f2-ec9b4fabb44f"
-			"658d34d0-1ffb-44b4-a98b-b9641ee2898b" "684a06c2-5efa-41ea-9b69-fdd63e6dd1ba"
+			"0fb7095e-c506-407f-a524-05ee17957699" "113eec66-8106-4857-8e64-d3a0e11091d6"
+			"159207ac-f20c-48c1-adf6-dcd45d1cfdac" "16ee0e1d-3749-420c-91e1-d54060896f5d"
+			"1c1ee3da-b187-46f4-8351-5b9a7502479b" "1c83b148-e355-410f-8b81-503592fdf156"
+			"1d9e8fa2-c631-41c7-b9a5-1eb3db4d7b72" "249b94aa-3bd9-4ba2-95c1-0ae36521b8ff"
+			"25e025cc-f67d-42f2-b852-ac7b69046e62" "2bb18686-7dd1-4799-be52-80e3ee5e7d73"
+			"2d93e511-d243-429e-b868-c71ff9a490dd" "2e0164da-c26e-4aef-bf8c-56aafca868d1"
+			"2ec60797-8abd-460e-b67c-6c5c02a08c6f" "3599554c-e8c5-458c-a8f6-ca4fe2c24ac9"
+			"36975ebe-5bc4-4dc5-8f79-33d1a0072089" "39b53831-0c36-456d-8c7e-a810192907dd"
+			"3c4d6f5e-4342-46e4-a956-73dacc383134" "3d5fbb9a-cdd0-4621-92aa-eda7aa4ce754"
+			"441d8837-86bb-4ef9-bc16-1fba10e027b4" "4461c4aa-3616-44e3-b7a0-7f6e3b55e44a"
+			"44f5b64e-f4ed-4620-a367-643bd812eb07" "4bd63f85-2405-425e-8ce6-f0bb85fcaffd"
+			"4cbfc40e-0e5c-4747-b5a9-8d61cf906887" "4e7ef8eb-bd33-41d3-9a88-aa526b2a8ee2"
+			"4f7ec5e5-43b1-494f-8b54-ac2fd6c2c36a" "530d4122-30d5-4aea-8ebb-8d3cd9db35c6"
+			"552d03dd-c6ff-4edc-8abb-1bb5a0621498" "580f0a7a-ec91-402b-863c-84509460bf55"
+			"5d1f58c8-184b-4c10-b6e2-fae89a45acdf" "62b7ca41-b1a5-4ddb-8b3a-25752f6a235f"
+			"635e4e8a-ecf4-41df-93f2-ec9b4fabb44f" "658d34d0-1ffb-44b4-a98b-b9641ee2898b"
 			"68f326b4-44cc-455f-bae0-93b7b060e04b" "6ebfc65c-ba50-4f3c-ba44-a4414cf6a643"
-			"71af2f03-d09e-47a4-a0fb-530634954d82" "7895d0be-f68c-49c6-b622-3c3c132b3f41"
-			"7afb0230-a44b-403f-ae4d-04c60f6e766f" "7bc36765-212a-4011-9095-0f3e4c099575"
-			"7d29e3ee-71b2-4a91-bead-e5a98212c20a" "82fe00bb-f8e4-47d8-bd67-57f93884262c"
-			"8b4d542a-a4cf-4042-8949-3bad7f937445" "8d91a5a4-dd9d-4a86-a035-740f546e3278"
-			"8e27a665-1ad5-4a53-9757-943ee6ab0959" "933059bf-c806-4cd4-ab7f-b407c6884529"
+			"71af2f03-d09e-47a4-a0fb-530634954d82" "71cbc809-9144-4dba-8cf3-08abc7d91fba"
+			"738db06f-498a-4e1f-ada4-2c202989b463" "77714816-51d0-44b6-aa05-759d797b8849"
+			"7895d0be-f68c-49c6-b622-3c3c132b3f41" "7afb0230-a44b-403f-ae4d-04c60f6e766f"
+			"7bc36765-212a-4011-9095-0f3e4c099575" "7d29e3ee-71b2-4a91-bead-e5a98212c20a"
+			"82fe00bb-f8e4-47d8-bd67-57f93884262c" "8b4d542a-a4cf-4042-8949-3bad7f937445"
+			"8d91a5a4-dd9d-4a86-a035-740f546e3278" "8e27a665-1ad5-4a53-9757-943ee6ab0959"
+			"933059bf-c806-4cd4-ab7f-b407c6884529" "93601584-7183-4854-b6d4-25cf3a289e54"
 			"b17ea43e-22ee-4131-9ae8-fc32674bb3ef" "b19fe195-bd0d-43ee-8088-ca40256de9a3"
 			"b592678e-a524-4435-999b-f9ac16a7d8be" "b827d098-d2f2-4b6d-82bc-751718d5d218"
 			"bd9a1b9d-e949-4027-932e-8281f23e0e8a" "bf4239f4-aee1-47fa-9c69-0dae8fc0276d"
-			"c05a535b-d0db-4305-aaeb-8a2d114e2019" "d13c34bc-07aa-4ad9-8efe-841734e676ab"
-			"d9ae61d2-980d-4e58-991e-b7c3ef99c915" "dbdcaac5-9f28-4af7-8944-010eb7d3403f"
+			"c05a535b-d0db-4305-aaeb-8a2d114e2019" "c4ec2e94-05b9-4638-b085-81e290a09a7c"
+			"d13c34bc-07aa-4ad9-8efe-841734e676ab" "d9ae61d2-980d-4e58-991e-b7c3ef99c915"
+			"dbdcaac5-9f28-4af7-8944-010eb7d3403f" "e0f8e1dc-5971-40c9-b9b7-735f193164de"
 			"e527a25a-3c56-4dab-98a5-aa77ef2e4394" "ee292aa0-8b55-4dfb-8199-35d1b985c9bf"
 			"f2502cdb-ca15-4c50-b260-cddfa995a023" "f29f7053-1a05-44f3-b944-45ca659a89ec"
-			"f4d56579-d314-402c-aba7-9aa7af7b9b7d" "fbea6b7f-40d2-405e-9de7-0ed283051786"
-			"fe24a97c-63a3-4430-9163-8983d1ba825a" "ffb9f146-4af0-4024-bc33-268b120d19d3"
+			"f4d56579-d314-402c-aba7-9aa7af7b9b7d" "f78f274f-2125-41c4-8fc1-a4b72b154be1"
+			"fbea6b7f-40d2-405e-9de7-0ed283051786" "fe24a97c-63a3-4430-9163-8983d1ba825a"
+			"ffb9f146-4af0-4024-bc33-268b120d19d3"
 		)
 	)
 	(group "HSE"

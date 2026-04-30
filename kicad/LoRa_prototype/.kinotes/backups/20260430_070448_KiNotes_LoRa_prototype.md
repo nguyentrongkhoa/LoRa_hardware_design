@@ -47,21 +47,26 @@ M**CU (U10) and RF circuit**
 - 
 - Power plane must NOT extend to board edge to avoid radiation 
 - Ground planes must be put on all layers around the board outline and connected to each other (i.e no ground plane       should be left floating                                                                                                                                                           
+![Image](./images/imported_20260429_085035.png)
+
+
+
 - 
 
 
-Com**p**o**nent Notes**
-## **<!-- **Click on designators like R1, C5, U3 to highlight on PCB -->
 
-Power** Distribution**
-## **<!-- **Power rails, decoupling strategy -->
+Comp**o**n**ent Notes**
+## **<!-- C**lick on designators like R1, C5, U3 to highlight on PCB -->
 
-Signa**l Integrity**
-## **<!-- **Critical nets, routing constraints -->
+Power **Distribution**
+## **<!-- P**ower rails, decoupling strategy -->
 
-Refer**ences**
-## **<!-- **Datasheets, application notes, calculations -->
+Signal** Integrity**
+## **<!-- C**ritical nets, routing constraints -->
+
+Refere**nces**
+## **<!-- D**atasheets, application notes, calculations -->
 
 ---
-KiNot*es - PCBtools.xyz*
+KiNote*s - PCBtools.xyz*
 

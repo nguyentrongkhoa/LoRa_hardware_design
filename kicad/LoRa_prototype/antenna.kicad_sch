@@ -1201,7 +1201,7 @@
 		(at 128.27 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3cf43089-90e0-4f18-927c-26f8244872fa")
+		(uuid "4c506f6a-977f-43c1-8f08-08828047a2b4")
 	)
 	(junction
 		(at 140.97 96.52)
@@ -1221,7 +1221,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 96.52) (xy 128.27 96.52)
+			(xy 113.03 96.52) (xy 128.27 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1241,7 +1241,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 99.06) (xy 81.28 99.06)
+			(xy 105.41 96.52) (xy 102.87 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca781a9-65fa-4a2b-bb60-74af7a739508")
+	)
+	(wire
+		(pts
+			(xy 82.55 99.06) (xy 74.93 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1251,7 +1261,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 82.55 93.98)
+			(xy 74.93 93.98) (xy 82.55 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2113,7 +2123,7 @@
 	)
 	(hierarchical_label "LORA_RX"
 		(shape input)
-		(at 73.66 93.98 180)
+		(at 67.31 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2124,7 +2134,7 @@
 	)
 	(hierarchical_label "LORA_TX"
 		(shape input)
-		(at 73.66 99.06 180)
+		(at 67.31 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2143,6 +2153,186 @@
 			(justify left)
 		)
 		(uuid "ccc94b38-0140-422d-a1b1-af47d034ac86")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 77.47 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "17bb2f26-c215-4f04-990d-3ea69c058fcf")
+		(property "Net Class" "50Ω"
+			(at 78.1685 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 2.54 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 119.38 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b2a6061-ca14-49d4-bbf8-af26118a4d6f")
+		(property "Net Class" "50Ω"
+			(at 120.0785 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 44.45 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 77.47 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a18dc06a-415a-41c5-9ebe-8a7bc161afbd")
+		(property "Net Class" "50Ω"
+			(at 78.1685 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 2.54 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 102.87 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a479f5d3-13b5-4c1c-b927-ccb8eb9f9118")
+		(property "Net Class" "50Ω"
+			(at 103.5685 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 27.94 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 140.97 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 54 221 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "fecda9d5-ef77-48b9-a1a1-9bac915dc1b7")
+		(property "Net Class" "50Ω"
+			(at 141.6685 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 66.04 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2805,7 +2995,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 77.47 99.06 90)
+		(at 71.12 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2815,7 +3005,7 @@
 		(dnp no)
 		(uuid "989583d4-71ba-4e6b-ae9e-c850d68df0b6")
 		(property "Reference" "C36"
-			(at 77.47 102.87 90)
+			(at 71.12 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2825,7 +3015,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 77.47 105.156 90)
+			(at 71.12 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2835,7 +3025,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 81.28 98.0948 0)
+			(at 74.93 98.0948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,7 +3036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 99.06 0)
+			(at 71.12 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2857,7 +3047,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 77.47 99.06 0)
+			(at 71.12 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2884,7 +3074,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 106.68 96.52 90)
+		(at 109.22 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2894,7 +3084,7 @@
 		(dnp no)
 		(uuid "b6cd4d47-24c8-4ce3-9419-115df96e6873")
 		(property "Reference" "C37"
-			(at 106.68 100.33 90)
+			(at 109.22 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2904,7 +3094,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 106.68 102.616 90)
+			(at 109.22 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2914,7 +3104,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 110.49 95.5548 0)
+			(at 113.03 95.5548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2925,7 +3115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 96.52 0)
+			(at 109.22 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,7 +3126,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 106.68 96.52 0)
+			(at 109.22 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3040,7 +3230,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 77.47 93.98 90)
+		(at 71.12 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3050,7 +3240,7 @@
 		(dnp no)
 		(uuid "e01ad334-5b53-4899-9680-eed664c37d1f")
 		(property "Reference" "C35"
-			(at 77.47 88.392 90)
+			(at 71.12 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3060,7 +3250,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 77.47 90.678 90)
+			(at 71.12 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3070,7 +3260,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 81.28 93.0148 0)
+			(at 74.93 93.0148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3081,7 +3271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 93.98 0)
+			(at 71.12 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3092,7 +3282,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 77.47 93.98 0)
+			(at 71.12 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3119,28 +3309,31 @@
 	)
 	(group "Antenna"
 		(uuid "ec899975-f2b3-46e6-aade-7a5eee6375ba")
-		(members "050ef20b-fa12-40fb-b022-fac2ddff0c45" "1ec5ddc9-b07d-47ae-b1d7-5211c8caab72"
-			"24f4a0e4-642e-4348-8b3e-08af298acdba" "2890366f-401b-4d8e-aec8-d48131286351"
-			"2e0b9c03-5ce5-49a8-a9a1-c5c31d3e77c5" "313d8f98-c0af-40de-8285-65d479be0bfe"
-			"33ec819e-854c-4936-9042-0dbd50217fef" "353ff888-3c85-4e9e-ba76-367331d82f1c"
-			"3b74cdae-95ce-4c8d-bae9-f1978d054745" "3cf43089-90e0-4f18-927c-26f8244872fa"
+		(members "050ef20b-fa12-40fb-b022-fac2ddff0c45" "17bb2f26-c215-4f04-990d-3ea69c058fcf"
+			"1ec5ddc9-b07d-47ae-b1d7-5211c8caab72" "24f4a0e4-642e-4348-8b3e-08af298acdba"
+			"2890366f-401b-4d8e-aec8-d48131286351" "2e0b9c03-5ce5-49a8-a9a1-c5c31d3e77c5"
+			"313d8f98-c0af-40de-8285-65d479be0bfe" "33ec819e-854c-4936-9042-0dbd50217fef"
+			"353ff888-3c85-4e9e-ba76-367331d82f1c" "3b2a6061-ca14-49d4-bbf8-af26118a4d6f"
+			"3b74cdae-95ce-4c8d-bae9-f1978d054745" "3ca781a9-65fa-4a2b-bb60-74af7a739508"
 			"407e2344-269e-4341-a0b4-725e004f0a66" "4166c051-a966-487c-a30e-fd2df7902878"
-			"54847eed-d7aa-41a3-89c5-7e6e2a855c38" "54b644a2-2b57-40c9-b1e4-7a7c2e46ca51"
-			"56faba86-7110-4cbb-bedd-e4f2f5a4c0cd" "5acc9b2d-4b98-4924-bc94-b008e14dd705"
-			"6211fd16-cd02-4cc7-aaa6-54fc715877b9" "668234c3-45c5-4b3c-97fa-55c7ee607220"
-			"6a5e0b00-9dcb-44cc-9ced-cf59e2771800" "70ef8dff-fe0c-4535-99c5-33ae977732b4"
-			"7817553c-0a96-426a-a649-15836761c1d5" "7d43f52f-6f81-4778-8f4b-07f8e1e9b973"
-			"87eba274-bd9a-485e-b029-3585d9402279" "8c5a8624-2194-4aca-8d27-7fda8ca437fb"
-			"8dc6ce59-7893-4559-9fe2-67bb3c37f750" "8fce88c0-cfa2-4ce2-9a3c-6adcb6635c08"
-			"8fcfcd61-690c-4b0e-990f-da15a2abcc6a" "962f4cad-b978-43aa-b75a-a9eb60a7b409"
-			"989583d4-71ba-4e6b-ae9e-c850d68df0b6" "a5acee87-cdf3-498b-bbc4-c7afad8634cf"
-			"b06e0cd8-e128-45a9-af9d-218f460c80a6" "b6cd4d47-24c8-4ce3-9419-115df96e6873"
-			"b7ef53b6-9dff-4056-affb-03a719fa99f5" "b910f3ed-7772-4e36-a660-e385ce0db4b3"
-			"bb20aa67-ef28-4f5f-bcba-6117c5b9c0b7" "c1daacac-caec-4c59-b601-a5735ce7f3c2"
-			"c2ff62e4-69c4-4d6d-bee3-39bdef27ffee" "c5f54d49-b0ee-429e-99b0-baa3645f042b"
-			"caa39a5e-b001-4989-8b20-d896a9a5586a" "ccc94b38-0140-422d-a1b1-af47d034ac86"
-			"d6bb5215-8566-4829-91b5-fb72b3497667" "da63f407-721b-416a-8b7c-e10a2d56271b"
-			"e01ad334-5b53-4899-9680-eed664c37d1f" "fa5c03a0-5e59-4027-8992-0169aa9ba20a"
+			"4c506f6a-977f-43c1-8f08-08828047a2b4" "54847eed-d7aa-41a3-89c5-7e6e2a855c38"
+			"54b644a2-2b57-40c9-b1e4-7a7c2e46ca51" "56faba86-7110-4cbb-bedd-e4f2f5a4c0cd"
+			"5acc9b2d-4b98-4924-bc94-b008e14dd705" "6211fd16-cd02-4cc7-aaa6-54fc715877b9"
+			"668234c3-45c5-4b3c-97fa-55c7ee607220" "6a5e0b00-9dcb-44cc-9ced-cf59e2771800"
+			"70ef8dff-fe0c-4535-99c5-33ae977732b4" "7817553c-0a96-426a-a649-15836761c1d5"
+			"7d43f52f-6f81-4778-8f4b-07f8e1e9b973" "87eba274-bd9a-485e-b029-3585d9402279"
+			"8c5a8624-2194-4aca-8d27-7fda8ca437fb" "8dc6ce59-7893-4559-9fe2-67bb3c37f750"
+			"8fce88c0-cfa2-4ce2-9a3c-6adcb6635c08" "8fcfcd61-690c-4b0e-990f-da15a2abcc6a"
+			"962f4cad-b978-43aa-b75a-a9eb60a7b409" "989583d4-71ba-4e6b-ae9e-c850d68df0b6"
+			"a18dc06a-415a-41c5-9ebe-8a7bc161afbd" "a479f5d3-13b5-4c1c-b927-ccb8eb9f9118"
+			"a5acee87-cdf3-498b-bbc4-c7afad8634cf" "b06e0cd8-e128-45a9-af9d-218f460c80a6"
+			"b6cd4d47-24c8-4ce3-9419-115df96e6873" "b7ef53b6-9dff-4056-affb-03a719fa99f5"
+			"b910f3ed-7772-4e36-a660-e385ce0db4b3" "bb20aa67-ef28-4f5f-bcba-6117c5b9c0b7"
+			"c1daacac-caec-4c59-b601-a5735ce7f3c2" "c2ff62e4-69c4-4d6d-bee3-39bdef27ffee"
+			"c5f54d49-b0ee-429e-99b0-baa3645f042b" "caa39a5e-b001-4989-8b20-d896a9a5586a"
+			"ccc94b38-0140-422d-a1b1-af47d034ac86" "d6bb5215-8566-4829-91b5-fb72b3497667"
+			"da63f407-721b-416a-8b7c-e10a2d56271b" "e01ad334-5b53-4899-9680-eed664c37d1f"
+			"fa5c03a0-5e59-4027-8992-0169aa9ba20a" "fecda9d5-ef77-48b9-a1a1-9bac915dc1b7"
 		)
 	)
 )
