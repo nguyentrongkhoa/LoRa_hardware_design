@@ -2121,7 +2121,7 @@
 		)
 		(uuid "1ec5ddc9-b07d-47ae-b1d7-5211c8caab72")
 	)
-	(hierarchical_label "LORA_RX"
+	(hierarchical_label "LORA_TX"
 		(shape input)
 		(at 67.31 93.98 180)
 		(effects
@@ -2132,7 +2132,7 @@
 		)
 		(uuid "33ec819e-854c-4936-9042-0dbd50217fef")
 	)
-	(hierarchical_label "LORA_TX"
+	(hierarchical_label "LORA_RX"
 		(shape input)
 		(at 67.31 99.06 180)
 		(effects
