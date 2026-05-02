@@ -4,7 +4,7 @@
     "done": false,
     "time_spent": 0,
     "history": [],
-    "is_running": false
+    "is_running": true
   },
   {
     "text": "Layout Check",
@@ -21,7 +21,14 @@
     "is_running": false
   },
   {
-    "text": "Check if STDC-14 connector on STLink has 2.54mm or 1.27mm ",
+    "text": "Check if STDC-14 connector on STLink has 2.54mm or 1.27mm pitch",
+    "done": false,
+    "time_spent": 0,
+    "history": [],
+    "is_running": false
+  },
+  {
+    "text": "",
     "done": false,
     "time_spent": 0,
     "history": [],

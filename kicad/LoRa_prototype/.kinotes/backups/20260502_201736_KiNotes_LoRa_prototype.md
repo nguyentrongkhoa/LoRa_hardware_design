@@ -24,10 +24,10 @@
 - Enclosure should be non-metal around antenna, min distance 3mm
 - Keep away from heat-generating circuits
 
-M**CU (U10) and RF circuit**
+MC**U (U10) and RF circuit**
 - Keep RF traces short and straightforward to avoid reflections
 - Place decoupling caps and RF parts first
-- Do N**OT r**oute high-freq signals on board outline, since they will radiate
+- Do NO**T ro**ute high-freq signals on board outline, since they will radiate
 ![Image](./images/imported_20260429_084340.png)
 
 - Maintain 50-ohm characteristic impedance
@@ -44,26 +44,30 @@ M**CU (U10) and RF circuit**
 - Avoid thermal reliefs on RF lines, as they increase ESL
 - Put vias around RF lines to reduce high-freq issues (via stitching)
 ![Image](./images/imported_20260429_083730.png)
-- 
+---
 - Power plane must NOT extend to board edge to avoid radiation 
 - Ground planes must be put on all layers around the board outline and connected to each other (i.e no ground plane       should be left floating                                                                                                                                                           
 ![Image](./images/imported_20260429_085035.png)
-- 
 
 
-
-Comp**o**n**ent Notes**
-## **<!-- C**lick on designators like R1, C5, U3 to highlight on PCB -->
-
-Power **Distribution**
-## **<!-- P**ower rails, decoupling strategy -->
-
-Signal** Integrity**
-## **<!-- C**ritical nets, routing constraints -->
-
-Refere**nces**
-## **<!-- D**atasheets, application notes, calculations -->
 
 ---
-KiNote*s - PCBtools.xyz*
+
+
+
+Component **N**o**tes**
+**<!-- Click on designators like R1, C5, U3 to highlight on PCB -->**
+
+## **Power** Distri**bution**
+**<!-- Power rails, decoupling strategy -->**
+
+## **Signa**l Integ**rity**
+**<!-- Critical nets, routing constraints -->**
+
+## **Refer**ences
+<**!-- Datasheets, application notes, calculations -->**
+
+---
+KiNotes - PC*Btools.xyz*
+
 

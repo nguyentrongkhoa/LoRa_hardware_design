@@ -2,8 +2,13 @@
   {
     "text": "Schematic Review",
     "done": false,
-    "time_spent": 0,
-    "history": [],
+    "time_spent": 2.9366180896759033,
+    "history": [
+      {
+        "start": 1777745840,
+        "stop": 1777745843
+      }
+    ],
     "is_running": false
   },
   {
@@ -21,7 +26,14 @@
     "is_running": false
   },
   {
-    "text": "Check if STDC-14 connector on STLink has 2.54mm or 1.2",
+    "text": "Check if STDC-14 connector on STLink has 2.54mm or 1.27mm pitch",
+    "done": false,
+    "time_spent": 0,
+    "history": [],
+    "is_running": false
+  },
+  {
+    "text": "",
     "done": false,
     "time_spent": 0,
     "history": [],
