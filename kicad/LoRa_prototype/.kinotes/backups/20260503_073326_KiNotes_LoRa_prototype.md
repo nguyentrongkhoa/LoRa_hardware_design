@@ -57,8 +57,6 @@ RF Shielding:
 
 - Can act as a thermal trap
 
-- Take care of critical RF traces and components first and then design shield, not the other way around
-
 
 
 ---

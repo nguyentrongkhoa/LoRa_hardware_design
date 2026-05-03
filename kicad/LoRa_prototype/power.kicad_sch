@@ -10567,7 +10567,7 @@
 		)
 		(property "Value" "IN_LV"
 			(at 191.77 52.0699 90)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
