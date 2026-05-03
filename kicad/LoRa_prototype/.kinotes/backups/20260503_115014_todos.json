@@ -28,7 +28,14 @@
     "is_running": false
   },
   {
-    "text": "Replace Samtec SMA Antenna connector wit",
+    "text": "Replace Samtec SMA Antenna connector with something cheapter",
+    "done": false,
+    "time_spent": 0,
+    "history": [],
+    "is_running": false
+  },
+  {
+    "text": "Taper all RF traces",
     "done": false,
     "time_spent": 0,
     "history": [],

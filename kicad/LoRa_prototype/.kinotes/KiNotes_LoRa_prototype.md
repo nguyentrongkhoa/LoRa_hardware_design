@@ -24,10 +24,10 @@
 - Enclosure should be non-metal around antenna, min distance 3mm
 - Keep away from heat-generating circuits
 
-M**CU (U10) and RF circuit**
+MC**U (U10) and RF circuit**
 - Keep RF traces short and straightforward to avoid reflections
 - Place decoupling caps and RF parts first
-- Do NOT** rou**te high-freq signals on board outline, since they will radiate
+- Do NOT **rout**e high-freq signals on board outline, since they will radiate
 ![Image](./images/imported_20260429_084340.png)
 
 - Maintain 50-ohm characteristic impedance
@@ -66,19 +66,20 @@ RF Shielding:
 
 
 Component Notes
-**<**!**-- Click on designators like R1, C5, U3 to highlight on PCB -->**
+<!-- C**l**i**ck on designators like R1, C5, U3 to highlight on PCB -->**
 
-**Power** **Distribution**
-## **<!-- Power rails, decoupling strategy -->**
+**Power** **Distr**i**bution**
+**<!-- Power rails, decoupling strategy -->**
 
-**Signa**l** Integrity**
-## **<!-- Critical nets, routing constraints -->**
+## **Signa**l** Inte**g**rity**
+**<!-- Critical nets, routing constraints -->**
 
-**Refer**e**nces**
-## **<!-- D**a**tasheets, application notes, calculations -->**
+## **Refer**e**nces**
+<**!-- Datasheets, application notes, calculations -->**
 
 ---
-KiNotes - PCBtools*.xyz*
+KiNotes - PCBtools.xyz
+
 
 
 
