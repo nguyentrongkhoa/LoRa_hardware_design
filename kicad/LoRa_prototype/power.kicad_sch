@@ -14560,7 +14560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "footprints:PSPMAA0402-220M-ANP"
 			(at 186.69 44.45 0)
 			(hide yes)
 			(show_name no)
