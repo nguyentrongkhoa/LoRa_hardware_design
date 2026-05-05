@@ -756,7 +756,7 @@
         "uuid": "9fad4700-f514-47ad-821a-b4076ecc08de"
       }
     ],
-    "used_designators": "TP6-7,U11",
+    "used_designators": "TP6-7,TP20-22,U10-11,Q3-5,J13,R2-3,R16,R23-24,R31-32,#FLG3-4,#FLG15,D5,#PWR3-4,#PWR81,#PWR91,#PWR98-104,C53-55",
     "variants": []
   },
   "sheets": [

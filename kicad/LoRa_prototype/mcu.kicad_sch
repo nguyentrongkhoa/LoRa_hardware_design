@@ -4924,6 +4924,12 @@
 		(uuid "138dfa9e-6545-46df-b35f-cea328c451cd")
 	)
 	(junction
+		(at 63.5 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14f0b69b-e59c-4088-8786-5f736be48bdc")
+	)
+	(junction
 		(at 15.24 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16081,10 +16087,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "30ba7082-2fe8-40e5-b927-fc4174dccfb3")
 		(property "Reference" "R30"
-			(at 130.81 74.93 90)
+			(at 130.81 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16094,7 +16099,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 130.81 77.47 90)
+			(at 130.81 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19823,6 +19828,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 219.71 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac536c46-ab4d-411e-a585-59d8d7c14521")
+		(property "Reference" "#FLG04"
+			(at 219.71 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 214.122 122.936 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 219.71 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2a49103-b60e-45de-b0b2-f56e887745a8")
+		)
+		(instances
+			(project "LoRa_prototype"
+				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/aff57de4-7349-43c5-ba7a-251ada06728f"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 264.16 156.21 0)
 		(unit 1)
@@ -20758,6 +20840,83 @@
 			(project "LoRa_prototype"
 				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/aff57de4-7349-43c5-ba7a-251ada06728f"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d54384d2-4ae1-434b-9cae-a041fe6ec27d")
+		(property "Reference" "#FLG03"
+			(at 63.5 83.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 63.246 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 63.5 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "983f4f9f-7eb2-428a-bed4-81a245c2b5ff")
+		)
+		(instances
+			(project "LoRa_prototype"
+				(path "/9fad4700-f514-47ad-821a-b4076ecc08de/aff57de4-7349-43c5-ba7a-251ada06728f"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
