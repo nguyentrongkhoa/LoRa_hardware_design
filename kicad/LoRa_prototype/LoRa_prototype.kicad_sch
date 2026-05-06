@@ -68,16 +68,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 115.57) (xy 123.19 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14e32bfb-a965-4157-b638-1f0c0105af06")
-	)
-	(wire
-		(pts
 			(xy 101.6 101.6) (xy 123.19 101.6)
 		)
 		(stroke
@@ -275,16 +265,6 @@
 			(type default)
 		)
 		(uuid "d41c6aff-224d-41a7-ae16-8fe8a297e214")
-	)
-	(wire
-		(pts
-			(xy 101.6 118.11) (xy 123.19 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deff3c27-6e09-4a1a-b331-6ba52014306e")
 	)
 	(wire
 		(pts
@@ -510,26 +490,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "~{BATT_CHG}" output
-			(at 101.6 115.57 0)
-			(uuid "9fdda99d-6937-4e31-9efd-04a3ce61817d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{BATT_CONN}" output
-			(at 101.6 118.11 0)
-			(uuid "7e1a9223-c743-4188-b045-83779b2e87f9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "SDA_FG" bidirectional
@@ -886,29 +846,9 @@
 				(justify left)
 			)
 		)
-		(pin "~{BATT_CONN}" input
-			(at 123.19 118.11 180)
-			(uuid "2a5072fe-0857-4c98-84bb-a2cb65cf39e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{ALRT}" input
 			(at 123.19 113.03 180)
 			(uuid "ef2639bb-0dc5-4f2b-904c-48ffcb1264c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{BATT_CHG}" input
-			(at 123.19 115.57 180)
-			(uuid "796e5fa2-a38c-48a1-968e-9fa9d53c4535")
 			(effects
 				(font
 					(size 1.27 1.27)

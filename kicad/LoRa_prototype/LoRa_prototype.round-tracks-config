@@ -1,0 +1,6 @@
+Default	False	2.0	3
+50Ω	True	1.0	3
+GND	False	2.0	3
+I2C1	False	2.0	3
+VDD	False	2.0	3
+False	True	False

@@ -1,0 +1,95 @@
+(footprint "NT2016SF TCXO"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8722757e-9eb4-4c58-9c0f-8bd8d41f9b42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NT2016SF"
+		(at 0 3.13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "68089949-fd00-4797-a899-7db6d958613a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d5ae78e-a49a-4b0d-b6a5-13b376a0190a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ae415c4-153f-419d-9bde-fcbe71089380")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.63 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d232ecc1-3734-4816-bd59-e5da1f77201c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 0.6)
+		(size 0.6 0.8)
+		(layers "*.Mask" "F.Cu")
+		(uuid "c8a5f87d-d3d1-421f-8490-29ee75bc7c31")
+	)
+	(pad "2" smd rect
+		(at 0.9 0.6)
+		(size 0.6 0.8)
+		(layers "*.Mask" "F.Cu")
+		(uuid "8352753e-6eb3-4dda-809e-8277c8ff1a75")
+	)
+	(pad "3" smd rect
+		(at 0.9 -0.6)
+		(size 0.6 0.8)
+		(layers "*.Mask" "F.Cu")
+		(uuid "f5ef6445-3a6f-45e2-8508-c0f5a8ad4042")
+	)
+	(pad "4" smd rect
+		(at -0.9 -0.6)
+		(size 0.6 0.8)
+		(layers "*.Mask" "F.Cu")
+		(uuid "dfcd8556-ff22-4c33-8f12-591c7c267e43")
+	)
+	(embedded_fonts no)
+)
