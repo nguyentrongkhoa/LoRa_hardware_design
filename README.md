@@ -42,7 +42,7 @@ This is a very first prototype for DesCap's future LoRaWAN product. The design e
 |---------------|--------------------|----------|
 |VBUS|USB voltage|5V when USB is connected
 |OUT|output of BQ24074 battery charging module|4.2V when battery is full, ~3.5V when battery empty
-|$\overline{ALRT}$|MAX17048 fuel gauge alert signal when battery is low|3.3V when battery is full, 0V when empty 
+|ALRT|MAX17048 fuel gauge alert signal when battery is low|3.3V when battery is full, 0V when empty 
 
 </details>
 

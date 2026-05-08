@@ -34432,6 +34432,17 @@
 		(layer "F.SilkS")
 		(uuid "c4d26f2f-93bc-4244-a5c1-a4c207619c4c")
 	)
+	(gr_circle
+		(center 150.49 97.58)
+		(end 150.46 97.68)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "131cbad0-7728-48bc-8670-86ecbdd7790c")
+	)
 	(gr_rect
 		(start 162.620613 134.730937)
 		(end 182.620613 139.130937)
