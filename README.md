@@ -1,12 +1,12 @@
 # 🌍 Overview
 
-This is a very first prototype for DesCap's future LoRaWAN product. The design entails:
+This is a 4-layer RF-LoRa-PCB design for my bachelor thesis. The design entails:
 
 1. LoRa transceiver embedded within the STM32WL55 microcontroller
 2. BMV080 sensor and BME680 breakout board from Bosch
 3. L80-R GPS module from Quectel to test radio coverage
 4. SPV1050 solar energy harvesting module
-5. BQ24074 battery charging module with USB capabilities
+5. BQ24074 battery charging module with USB-C connector
 
 <details>
 <summary><h1>📋STM32WL55CCU6 pinout configuration</h1>  </summary>
@@ -49,16 +49,12 @@ This is a very first prototype for DesCap's future LoRaWAN product. The design e
 <details>
 <summary><h1>🔍PCB inspection result</h1></summary>
   
-## General remarks 
-
-## Minor Issues
-
-
 ## Detailed testing
 ### Visual inspection
 ### Electrical tests
 
-#### Power consumption of Fans
+#### Power consumption 
+
 
 </details>
 
@@ -67,7 +63,12 @@ This is a very first prototype for DesCap's future LoRaWAN product. The design e
 
 - [ ] Replace SMA connector from Samtec with a cheaper one (see notes in schematic)
 - [ ] Tune the antenna side matching network with NanoVNA
-- [ ] Remove GPS module
+- [ ] Remove GPS module since TTFF (time-to-first-fix) is too long
+- [ ] Move BMV080 away from MCU
+- [ ] Fix VCP (virtual COM port) connections so that debug prints can be displayed in the host comp's terminal
+- [ ] Fix PCB edge cut so that it's rectangular and not jagged
+- [ ] Fix BMV080 orientation (so that it does not overlap solar cell)
+- [ ] Remove USB charging (including BQ24072 charging IC), since the 3.3V LDO of the SPV1050 with max 200 mA can supply the       whole system
 
 </details>
 
