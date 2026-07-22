@@ -8,6 +8,13 @@ This is a 4-layer RF-LoRa-PCB design for my bachelor thesis. The design entails:
 4. SPV1050 solar energy harvesting module
 5. BQ24074 battery charging module with USB-C connector
 
+<table>
+  <tr>
+    <td><img src="pictures/lora_front.jpeg" alt="Front" width="100%"></td>
+    <td><img src="pictures/lora_back.jpeg"  alt="Back" width="100%"></td>
+  </tr>
+</table>
+
 <details>
 <summary><h1>📋STM32WL55CCU6 pinout configuration</h1>  </summary>
 
